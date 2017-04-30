@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Altimit Network/AltimitPlayer.cs">
+    <Files>
+      <File FileName="Assets/Altimit Network/AltimitView.cs" Line="10" Column="34" />
+      <File FileName="Assets/Altimit Network/AltimitNetwork.cs" Line="148" Column="31" />
+      <File FileName="Assets/Altimit Network/AltimitPlayer.cs" Line="21" Column="1" />
+      <File FileName="../../../Downloads/TheWorldOld/The World/The World/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonView.cs" Line="24" Column="23" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

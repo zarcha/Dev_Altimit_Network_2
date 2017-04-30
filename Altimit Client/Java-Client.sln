@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{184C651E-96D0-7EE0-A2CB-E2ACBF376361}") = "Java-Client", "Assembly-CSharp.csproj", "{2F943CB0-16B0-CE93-C7D8-817372908837}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F943CB0-16B0-CE93-C7D8-817372908837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F943CB0-16B0-CE93-C7D8-817372908837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F943CB0-16B0-CE93-C7D8-817372908837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F943CB0-16B0-CE93-C7D8-817372908837}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
