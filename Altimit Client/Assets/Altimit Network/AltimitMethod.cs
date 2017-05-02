@@ -6,17 +6,29 @@ using System.Reflection;
 using System.Threading;
 
 namespace Altimit {
-	public class AltimitMethod : MonoBehaviour {
+	public class AltimitMethod {
 
 		//<summary>
 		// All methods marked with [AltimitRPC]
 		//</summary>
-		private static List<MethodBase> altimitMethods = new List<MethodBase> ();
+		private List<MethodBase> altimitMethods = new List<MethodBase>();
+
+        private static AltimitMethod instance = null;
+
+        public static AltimitMethod GetInstance()
+        {
+            if(instance == null)
+            {
+                instance = new AltimitMethod();
+            }
+
+            return instance;
+        }
 
 		//<summary>
 		// Get a list of all methods with [AltimitRPC]
 		//</summary>
-		public static void CompileAltimitMethods(){
+		public void CompileAltimitMethods(){
 			Debug.Log ("Compiling all Altimit methods...");
 
             Thread.Sleep(1000);
@@ -34,10 +46,20 @@ namespace Altimit {
 			Debug.Log ("Finished compiling Altimit methods...");
 		}
 
-		//<summary>
-		// Comparares a method's types with the variables in an object list
-		//</summary>
-		public static bool CompareTypes(ParameterInfo[] methodParams, object[] calledParams){
+        public bool HasLoadedMethods()
+        {
+            return (altimitMethods.Count > 0);
+        }
+
+        public void ClearMethods()
+        {
+            altimitMethods.Clear();
+        }
+
+        //<summary>
+        // Comparares a method's types with the variables in an object list
+        //</summary>
+        public bool CompareTypes(ParameterInfo[] methodParams, object[] calledParams){
 			if (methodParams.Length == calledParams.Length) {
 				for (int i = 0; i < calledParams.Length; i++) {
 					if (methodParams[i].ParameterType.Name != calledParams [i].GetType ().Name) {
@@ -54,7 +76,7 @@ namespace Altimit {
 		//<summary>
 		// Ivokes a method by a string name and a the paramaters in a list
 		//</summary>
-		public static void CallAltimitMethod(string methodName, params object[] paramaters){
+		public void CallAltimitMethod(string methodName, params object[] paramaters){
 			foreach (MethodBase m in altimitMethods) {
 				if (m.Name == methodName) {
 					if (CompareTypes(m.GetParameters(), paramaters)) {

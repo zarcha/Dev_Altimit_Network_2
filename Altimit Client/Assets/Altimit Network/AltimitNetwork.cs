@@ -38,16 +38,19 @@ namespace Altimit {
 		//Task container to for running code on the main thread
         public static TaskContainer tasker = null;
 
-		//<summary>
-		// Connect to an Altimit Server at a specified ip and port
-		//</summary>
+        private static AltimitMethod altimitMan = AltimitMethod.GetInstance();
+
+        //<summary>
+        // Connect to an Altimit Server at a specified ip and port
+        //</summary>
         public static void Connect(String ip, int port){
 
             CreateTaskObject();
 
             Thread.Sleep(1000);
 
-            AltimitMethod.CompileAltimitMethods ();
+            if(!altimitMan.HasLoadedMethods())
+                altimitMan.CompileAltimitMethods ();
 
 			try{
 				IPHostEntry ipHostInfo = Dns.GetHostEntry (ip);
@@ -211,7 +214,7 @@ namespace Altimit {
 				return;
 			} 
 		}
-
+        
 		//<summary>
 		// Invokes a method using the Object List that was returned from conversion 
 		//</summary>
@@ -219,7 +222,7 @@ namespace Altimit {
 			String MethodName = (string)sentMessage [0];
 			sentMessage.RemoveAt (0);
 
-			AltimitMethod.CallAltimitMethod (MethodName, sentMessage.ToArray());
+			altimitMan.CallAltimitMethod (MethodName, sentMessage.ToArray());
 		}
 
 		//<summary>
@@ -252,6 +255,7 @@ namespace Altimit {
 				Socket client = (Socket)ar.AsyncState;
 
 				int bytesSent = client.EndSend (ar);
+                Debug.Log("Bytes sent: " + bytesSent);
 			} catch(Exception e){
 				Debug.LogError (e.ToString());
 			}

@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * Heart beat messenger to see if clients are still connected.
  */
-class AltimitHeatBeat {
+class AltimitHeartBeat {
 
     /**
      * List of client UUID's that will be disconnected.
@@ -33,7 +33,7 @@ class AltimitHeatBeat {
                 }
 
                 StartChecks();
-                Thread.currentThread().stop();
+                Thread.currentThread().interrupt();
             }
         }, 30000);
     }

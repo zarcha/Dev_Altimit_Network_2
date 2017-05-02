@@ -5,6 +5,8 @@ import com.altimit_server.util.AltimitConverter;
 
 import java.util.*;
 
+import static com.altimit_server.AltimitHeartBeat.*;
+
 /**
  * Post Man is used to send messages to clients.
  */
@@ -22,7 +24,7 @@ class PostMan {
             try {
                 main.localClientMap.get(clientUUID).outputStream.write(postToSend);
             } catch (Exception e) {
-                AltimitHeatBeat.badUUIDs.add(clientUUID);
+                badUUIDs.add(clientUUID);
             }
         }
     }
@@ -56,7 +58,7 @@ class PostMan {
                     try {
                         pair.getValue().outputStream.write(postToSend);
                     } catch (Exception e) {
-                        AltimitHeatBeat.badUUIDs.add(currentUUID);
+                        badUUIDs.add(currentUUID);
                     }
                 }
             }
@@ -95,7 +97,7 @@ class PostMan {
                     try {
                         main.localClientMap.get(currentUUID).outputStream.write(postToSend);
                     } catch (Exception e) {
-                        AltimitHeatBeat.badUUIDs.add(currentUUID);
+                        badUUIDs.add(currentUUID);
                     }
                 }
             }

@@ -152,6 +152,7 @@ class Rooms {
     }
 
     static void  UpdateRoomUnityObject(String roomName, int viewId, Vector3 position, long timeStamp, UUID clientUUID){
+        System.out.println("Updating Room Unity Object");
         if(roomMap.containsKey(roomName)){
             Room tempRoom = roomMap.get(roomName);
 

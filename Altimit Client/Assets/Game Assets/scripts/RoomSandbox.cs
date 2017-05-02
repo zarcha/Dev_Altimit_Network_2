@@ -9,10 +9,15 @@ public class RoomSandbox: MonoBehaviour {
     public GameObject userCountLabel;
     public GameObject newRoomTextbox;
     public GameObject cube;
+    public GameObject canvas;
+
+    private Camera mainCamera;
 
 	void Update () {
         roomLabel.GetComponent<Text>().text = "Current Room: " + AltimitRoom.RoomName;
         userCountLabel.GetComponent<Text>().text = "User Count: " + AltimitRoom.UsersInRoom;
+
+        mainCamera = gameObject.GetComponent<Camera>();
     }
 
     public void JoinRoom()
@@ -23,5 +28,8 @@ public class RoomSandbox: MonoBehaviour {
 	public void InstantiateCube(){
        
         AltimitNetwork.Instantiate("FPSController", new Vector3(0, 2, 0), Quaternion.identity);
+
+        mainCamera.enabled = false;
+        canvas.SetActive(false);
 	}
 }

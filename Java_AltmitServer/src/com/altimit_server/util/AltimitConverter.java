@@ -297,8 +297,8 @@ public class AltimitConverter {
                     i += 5;
                     try {
                         paramaters.add(new String(Arrays.copyOfRange(array, i, i + length), "UTF-8"));
-                    } catch (UnsupportedEncodingException e) {
-                        e.printStackTrace();
+                    } catch (Exception e) {
+                        System.out.println("Converting to String Error: " + e);
                     }
                     i += length - 1;
                     break;
@@ -325,6 +325,9 @@ public class AltimitConverter {
                 case 11:
                     paramaters.add(convertToQuaternion(Arrays.copyOfRange(array, i+1, i+17)));
                     i += 16;
+                    break;
+                default:
+                    System.out.println("Conversion Error: Unsupported case found.");
                     break;
             }
         }

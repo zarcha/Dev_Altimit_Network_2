@@ -25,7 +25,7 @@ public class main {
     public static void main(String[] args){
         //Start server
         try {
-            StartServer(1025);
+            StartServer(1313);
         }catch (Exception e){
             e.printStackTrace();
         }
@@ -58,7 +58,7 @@ public class main {
 
         //Compile a list of the methods that will be used when compiling
         AltimitMethod.AltimitMethodCompile();
-        AltimitHeatBeat.StartChecks();
+        AltimitHeartBeat.StartChecks();
 
         //Start listening for clients
         ServerSocket listener = new ServerSocket(port);
@@ -165,18 +165,14 @@ public class main {
                                         messageOffset = messageSize;
 
                                         //Lets get the convert the byte array message to a list of real variables
-                                        sentMessage = AltimitConverter.ReceiveConversion(currentMessage);
-
+                                        List<Object> tSentMessage = AltimitConverter.ReceiveConversion(currentMessage);
                                         //Make sure this client has an identifier and if it doesnt then see if it is trying to set it. If not then do nothing!
                                         if (uuidSet) {
-                                            //Lets make a new thread and have it do what is needs to do with the message
-                                            Runnable task = () -> {
-                                                InvokeMessage(sentMessage);
-                                            };
-                                            new Thread(task).start();
+                                            AltimitInvoker tAltimitTask = new AltimitInvoker(tSentMessage);
+                                            new Thread(tAltimitTask).start();
 
-                                        } else if (sentMessage.get(0).equals("SetClientUUID")){
-                                            SetClientUUID((UUID)sentMessage.get(1));
+                                        } else if (tSentMessage.get(0).equals("SetClientUUID")){
+                                            SetClientUUID((UUID)tSentMessage.get(1));
                                         } else {
                                             System.out.println("UUID has not been set...");
                                         }
@@ -258,7 +254,7 @@ public class main {
 
         try {
             clientInfo.socket.close();
-            clientInfo.clientThread.stop();
+            clientInfo.clientThread.interrupt();
         } catch (IOException e) {
             System.out.println("Error closing client socket.");
         }
@@ -279,7 +275,7 @@ public class main {
     public static void DisconnectUser(Socket socket, DataOutputStream outputStream, DataInputStream inputStream, Thread clientThread){
         try{
             socket.close();
-            clientThread.stop();
+            clientThread.interrupt();
         }catch (IOException e) {
             System.out.println("Error Disconnecting: " + e.toString());
         }
