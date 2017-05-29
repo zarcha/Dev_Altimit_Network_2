@@ -24,12 +24,48 @@ angular.module('altimitCPanel').controller('MainCtrl', ['$scope', '$http', '$tim
     //Server status
     $http.get('http://localhost:4567/serverStatus')
       .then(function (response) {
-        me.serverStatus = "Online";
+        me.serverStatus = true;
       }, function () {
-        me.serverStatus = "Offline";
+        me.serverStatus = false;
         me.makeCalls = false;
       });
   };
+
+  me.StartServer = function(){
+    var req = {
+      method: 'POST',
+      url: 'http://localhost:4567/startServer',
+      headers: {
+        'Content-Type': undefined
+      },
+      data: {}
+    };
+
+    $http(req)
+      .then(function () {
+        console.log("Server Started");
+      }), function () {
+        console.log("Start Server Failed!");
+    };
+  }
+
+  me.StopServer = function(){
+    var req = {
+      method: 'POST',
+      url: 'http://localhost:4567/stopServer',
+      headers: {
+        'Content-Type': undefined
+      },
+      data: {}
+    };
+
+    $http(req)
+      .then(function () {
+        console.log("Server Stopped");
+      }), function () {
+        console.log("Stop Server Failed!");
+    };
+  }
 
   me.callServer();
 

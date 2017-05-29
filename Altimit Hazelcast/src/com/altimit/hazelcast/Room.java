@@ -32,6 +32,7 @@ public class Room implements Serializable{
      * @param max_users The max number of users that are allowed to be in the room.
      */
     public Room(User owner, int max_users){
+
         this.ownerId = owner.id;
         this.max_users = max_users;
         users.put(owner.uuid, owner);

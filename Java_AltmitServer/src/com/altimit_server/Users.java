@@ -13,17 +13,17 @@ import java.util.UUID;
 public class Users {
 
     /** The current hazelcast instance **/
-    static HazelcastInstance mainInstance = main.hazelcastInstance;
+    private static HazelcastInstance mainInstance = main.hazelcastInstance;
 
     /** Hazelcast map of use objects  **/
-    static IMap<UUID, User> userMap = mainInstance.getMap("users");
-    static IMap<String, Integer> sizeMap = mainInstance.getMap("mapSizes");
+    public static IMap<UUID, User> userMap = mainInstance.getMap("users");
+    private static IMap<String, Integer> sizeMap = mainInstance.getMap("mapSizes");
 
     /**
      * Adds a user object to the Hazelcast map using the client's UUID.
      * @param clientUUID The clients UUID used as the key and stored within the object.
      */
-    public static void Add(UUID clientUUID){
+    static void Add(UUID clientUUID){
         int tempId = sizeMap.get("users") + 1;
         User tempUser = new User(tempId);
         tempUser.uuid = clientUUID;
@@ -42,7 +42,7 @@ public class Users {
      * Removes a client from the Hazelcasts user map.
      * @param clientUUID Clients UUID used for removal
      */
-    public static void Remove(UUID clientUUID){
+    static void Remove(UUID clientUUID){
         if(userMap.containsKey(clientUUID)) {
             if (userMap.get(clientUUID).roomName != "") {
                 Rooms.LeaveRoom(clientUUID);
@@ -69,7 +69,7 @@ public class Users {
      * @param clientUUID Clients UUID used to find and update the user object.
      * @param roomName Room name to be set.
      */
-    public static void SetRoomName(String roomName, UUID clientUUID){
+    static void SetRoomName(String roomName, UUID clientUUID){
         User tempUser = userMap.get(clientUUID);
         tempUser.roomName = roomName;
 
@@ -90,7 +90,7 @@ public class Users {
      * @param clientUUID Clients UUID used to find the user object.
      * @return Room name of the user.
      */
-    public static String GetRoomName(UUID clientUUID){
+    static String GetRoomName(UUID clientUUID){
         return userMap.get(clientUUID).roomName;
     }
 

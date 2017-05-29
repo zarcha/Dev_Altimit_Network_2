@@ -32,13 +32,24 @@ class AltimitMethod {
     static void CallAltimitMethod(String methodName, Object... args){
         Object obj;
 
+        boolean isRPC = false;
+        if("AltimitRPC".equalsIgnoreCase(methodName)){
+            isRPC = true;
+        }
         for(Method m : allMethods){
-            if(Objects.equals(m.getName(), methodName) && CompareParamaters(m.getParameterTypes(), args)){
+            if(Objects.equals(m.getName(), methodName)){
                 try{
                     Class c = m.getDeclaringClass();
                     obj = c.newInstance();
 
-                    m.invoke(obj, args);
+                    //Shitty hack i made
+                    if(!isRPC){
+                        m.invoke(obj, args);
+                    }else{
+                        Integer newInt = (Integer)args[0];
+                        m.invoke(obj, newInt, args);
+                    }
+
                     return;
                 }catch (Exception e){
                     System.out.println("Unable to called method: " +  methodName);
@@ -47,7 +58,7 @@ class AltimitMethod {
         }
     }
 
-    private static boolean CompareParamaters(Class<?>[] methodTypes, Object[] sentObjects){
+    /*private static boolean CompareParamaters(Class<?>[] methodTypes, Object[] sentObjects){
         if(methodTypes.length == sentObjects.length){
             for(int i = 0; i < sentObjects.length; i++){
                 String type = (methodTypes[i].getName() == "int") ? "java.lang.Integer" : methodTypes[i].getName();
@@ -60,7 +71,7 @@ class AltimitMethod {
         }
 
         return true;
-    }
+    }*/
 
     /**
      * Gets all methods within a specified package that is marked with @AltimitCmd

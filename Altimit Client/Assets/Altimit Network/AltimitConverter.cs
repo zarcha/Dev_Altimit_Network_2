@@ -176,7 +176,7 @@ namespace Altimit{
 			byte[] buffer = new byte[17];
 			int position = 0;
 			byte[] val;
-			float[] values = { value.x, value.y, value.z , value.w};
+			float[] values = { value.w, value.x, value.y, value.z};
 
 			buffer [position] = (byte)11;
 			position++;

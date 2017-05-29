@@ -1,5 +1,8 @@
 package com.altimit_server;
 
+import com.altimit_server.ControlPanel.AltimitHttpServer;
+import com.altimit_server.ControlPanel.AltimitRest;
+import com.altimit_server.types.ClientInfo;
 import com.altimit_server.util.AltimitConverter;
 import java.io.*;
 import java.net.ServerSocket;
@@ -7,6 +10,7 @@ import java.net.Socket;
 import java.nio.ByteBuffer;
 import java.util.*;
 
+import com.altimit_server.util.PropertiesManager;
 import com.hazelcast.client.config.ClientConfig;
 import com.hazelcast.client.HazelcastClient;
 import com.hazelcast.core.HazelcastInstance;
@@ -16,63 +20,78 @@ import com.hazelcast.core.HazelcastInstance;
  */
 public class main {
     /** This is the map that links UUID's of each client to their socket. **/
-    public static Map<UUID, ClientInfo> localClientMap = new HashMap<>();
+    static Map<UUID, ClientInfo> localClientMap = new HashMap<>();
 
     /** The hazelcast instance object. **/
-    public static HazelcastInstance hazelcastInstance;
+    static HazelcastInstance hazelcastInstance;
+
+    private static PropertiesManager propertiesManager = new PropertiesManager(main.class);
+
+    private static ServerSocket listener;
 
     /** Main method of the server **/
     public static void main(String[] args){
+
+
         //Start server
         try {
-            StartServer(1313);
+            StartServer();
         }catch (Exception e){
-            e.printStackTrace();
+
         }
     }
 
     /**
      * Handles connection to hazelcast and sets the hazelcastInstance object.
      */
-    public static void ConnectToHazelcast(){
+    private static void ConnectToHazelcast(String ip, int port){
         ClientConfig hazelcastConfig = new ClientConfig();
-        hazelcastConfig.addAddress("127.0.0.1:5701");
+        hazelcastConfig.addAddress(ip + ":" + port);
         hazelcastInstance = HazelcastClient.newHazelcastClient(hazelcastConfig);
     }
 
     /**
      * Starts the connection to hazelcast, compiles AltimitCmd.
-     * @param port The port used for listening of new clients.
      */
-    public static void StartServer(int port) throws Exception{
+    private static void StartServer() throws Exception{
         //lets just do something fancy to show its ready
         System.out.println("==================================== \n" +
                             "========    ALTIMIT SERVER  ======== \n" +
                             "==================================== \n");
 
         //Connect to Hazelcast
-        ConnectToHazelcast();
+        ConnectToHazelcast(propertiesManager.getHazelcastIp(), propertiesManager.getHazelcastPort());
 
-        //Start Rest Server
-        AltimitRest.StartAll();
+        if(propertiesManager.useRestService()) {
+            //Start Rest Server
+            AltimitRest.StartAll();
+            AltimitHttpServer.StartHttpServer(propertiesManager);
+        }
 
         //Compile a list of the methods that will be used when compiling
         AltimitMethod.AltimitMethodCompile();
         AltimitHeartBeat.StartChecks();
 
-        //Start listening for clients
-        ServerSocket listener = new ServerSocket(port);
+
+        StartAltimitServer();
+    }
+
+    public static void StartAltimitServer()  throws Exception{
+        //Start listening for clients1
+        listener = new ServerSocket(propertiesManager.getServerPort());
 
         //Let the admin know that we can accept users now
         System.out.println("Ready for clients...");
 
         try {
-            while (true){
+            while (!listener.isClosed()){
                 //once a client connects do things with them in their own thread
                 new Handler(listener.accept()).start();
             }
         } finally {
-            listener.close();
+            if(!listener.isClosed()) {
+                listener.close();
+            }
         }
     }
 
@@ -100,7 +119,7 @@ public class main {
         /**
          * This is to see if the client has registered its UUID with the server
          */
-        public boolean uuidSet = false;
+        boolean uuidSet = false;
 
         Integer bufSize = 0;
         List<Object> sentMessage;
@@ -109,7 +128,7 @@ public class main {
          * Sets the socket passed to the thread.
          * @param socket The socket of the connected client.
          */
-        public  Handler(Socket socket){
+        Handler(Socket socket){
             this.socket = socket;
         }
 
@@ -205,7 +224,7 @@ public class main {
          * This is used to set the UUID of the client so we can identify it and send its socket messages or delete it.
          * @param sentUUID The self assigned client UUID.
           */
-        public void SetClientUUID(UUID sentUUID){
+        void SetClientUUID(UUID sentUUID){
             if(localClientMap.containsKey(sentUUID)){
                 System.out.println("UUID has already been registered! Dropping client!...");
                 DisconnectUser(socket, out, in, Thread.currentThread());
@@ -218,24 +237,6 @@ public class main {
                 Users.Add(sentUUID);
                 System.out.println("Client has been created in Hazelcast...");
                 System.out.println(Users.userMap.size() + " are registered...");
-            }
-        }
-
-        /**
-         * This will start the invoking of a method.
-         * @param sentMessage The list of parameters and method name sent my the server.
-         */
-        public void InvokeMessage(List<Object> sentMessage){
-            String methodName = "";
-            try {
-                methodName = (String) sentMessage.get(0);
-            }catch(ClassCastException e){
-                System.out.println(e);
-            }
-            sentMessage.remove(0);
-
-            if(methodName != "") {
-                AltimitMethod.CallAltimitMethod(methodName, sentMessage.toArray());
             }
         }
     }
@@ -272,7 +273,7 @@ public class main {
      * @param inputStream
      * @param clientThread
      */
-    public static void DisconnectUser(Socket socket, DataOutputStream outputStream, DataInputStream inputStream, Thread clientThread){
+    static void DisconnectUser(Socket socket, DataOutputStream outputStream, DataInputStream inputStream, Thread clientThread){
         try{
             socket.close();
             clientThread.interrupt();
@@ -281,5 +282,23 @@ public class main {
         }
 
         System.out.println("User has been disconnected.");
+    }
+
+    public static boolean isRunning(){
+        return !listener.isClosed();
+    }
+
+    public static void StopAltimitServer(){
+        for(UUID clientUUID : localClientMap.keySet()){
+            DisconnectUser(clientUUID, true);
+        }
+
+        try {
+            listener.close();
+            System.out.println("Altimit Server has been stopped...");
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
+
     }
 }

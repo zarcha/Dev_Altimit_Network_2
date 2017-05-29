@@ -8,7 +8,7 @@ import java.util.*;
 /**
  * This class is used for manipulation of room map data on hazelcast
  */
-class Rooms {
+public class Rooms {
 
     /**
      * Hazelcast instance
@@ -18,7 +18,7 @@ class Rooms {
     /**
      * The user map stored on Hazelcast
      */
-    static IMap<String, Room> roomMap = mainInstance.getMap("rooms");
+    public static IMap<String, Room> roomMap = mainInstance.getMap("rooms");
 
     /**
      * Joins a user to a room or creates one if the room deosnt exist.
@@ -69,7 +69,7 @@ class Rooms {
      * @param clientUUID The client UUID of the user that will leave the room.
      */
     @AltimitCmd
-    public static void LeaveRoom(UUID clientUUID){
+    static void LeaveRoom(UUID clientUUID){
         Room tempRoom;
         User tempUser = Users.GetUser(clientUUID);
 
@@ -131,7 +131,7 @@ class Rooms {
      * Gets the number of rooms on the Hazelcast room map.
      * @return Number of rooms.
      */
-    static int RoomCount(){
+    public static int RoomCount(){
         return roomMap.size();
     }
 
@@ -142,8 +142,7 @@ class Rooms {
             tempRoom.AddNetworkObject(netObject.viewId, netObject);
             roomMap.put(roomName, tempRoom);
 
-            UUID[] temp = {clientUUID};
-            PostMan.SendPost(roomName, temp, "Instantiate", netObject.prefabName, netObject.position, netObject.rotation, netObject.viewId, netObject.clientId);
+            PostMan.SendPost(roomName, "Instantiate", netObject.prefabName, netObject.position, netObject.rotation, netObject.viewId, netObject.clientId);
         }
     }
 

@@ -79,6 +79,12 @@
     <Reference Include="Mono.Cecil">
       <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Altimit Client.Plugins.csproj">
@@ -96,12 +102,14 @@
     <Compile Include="Assets\Altimit Network\AltimitRoom.cs" />
     <Compile Include="Assets\Altimit Network\AltimitView.cs" />
     <Compile Include="Assets\Altimit Network\AltimitViewHandler.cs" />
+    <Compile Include="Assets\Altimit Network\Enum\RPCType.cs" />
     <Compile Include="Assets\Altimit Network\Enums.cs" />
     <Compile Include="Assets\Altimit Network\TaskContainer.cs" />
     <Compile Include="Assets\Altimit Network\TaskManager.cs" />
     <Compile Include="Assets\Game Assets\scripts\NetworkManager.cs" />
     <Compile Include="Assets\Game Assets\scripts\Player.cs" />
     <Compile Include="Assets\Game Assets\scripts\RoomSandbox.cs" />
+    <Compile Include="Assets\Game Assets\scripts\TestRPCScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />

@@ -8,12 +8,12 @@ import java.util.*;
 public class AltimitInvoker implements Runnable {
     private List<Object> mSentMessage;
 
-    public AltimitInvoker(List<Object> _sentMessage) {
+    AltimitInvoker(List<Object> _sentMessage) {
         mSentMessage = new ArrayList<>();
         mSentMessage.addAll(_sentMessage);
     }
 
-    public void InvokeMessage(List<Object> sentMessage){
+    void InvokeMessage(List<Object> sentMessage){
         String methodName = "";
         try {
             methodName = (String) sentMessage.get(0);

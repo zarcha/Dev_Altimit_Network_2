@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
+using Altimit;
 
 public class Player : MonoBehaviour {
 
@@ -16,4 +17,11 @@ public class Player : MonoBehaviour {
             camObj.SetActive(false);
         }
 	}
+
+    
+    [AltimitRPC]
+    public void saySomething()
+    {
+        Debug.Log("Something");
+    }
 }

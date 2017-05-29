@@ -229,6 +229,8 @@ namespace Altimit {
 		// Starts the sending of a strings method and its paramaters. For now the GUUID is auto added.
 		//</summary>
 		public static void Send(String MethodName, params object[] data){
+            Debug.Log("Length: " + data.Length);
+
             List<object> tempData = data.ToList<object>();
             //TODO: find a better way to auto add uuid's for methods that use it on server side
             tempData.Add(playerUUID);
@@ -290,14 +292,6 @@ namespace Altimit {
 			int viewId = AltimitPlayer.ID * AltimitViewHandler.MAX_VIEWS + subId;
 
 			Send ("Instantiate", prefabName, position, rotation, viewId);
-
-			tasker.ScheduleTask (new Task (delegate {
-				GameObject obj = (GameObject)GameObject.Instantiate((GameObject)Resources.Load (prefabName), position, rotation);
-				obj.GetComponent<AltimitView>().viewID = viewId;
-				obj.GetComponent<AltimitView>().sceneView = false;
-                obj.GetComponent<AltimitView>().ownerID = AltimitPlayer.ID;
-				AltimitViewHandler.RegisterNetworkObject(obj, viewId);
-			}));
 		}
 
 		[AltimitRPC]
@@ -305,7 +299,8 @@ namespace Altimit {
 			tasker.ScheduleTask (new Task (delegate {
 				GameObject obj = (GameObject)GameObject.Instantiate((GameObject)Resources.Load (prefabName), position, rotation);
 				obj.GetComponent<AltimitView>().viewID = viewId;
-				obj.GetComponent<AltimitView>().sceneView = false;
+                obj.GetComponent<AltimitView>().ownerID = ownerId;
+                obj.GetComponent<AltimitView>().sceneView = false;
 				AltimitViewHandler.RegisterNetworkObject(obj, viewId);
 			}));
 		}

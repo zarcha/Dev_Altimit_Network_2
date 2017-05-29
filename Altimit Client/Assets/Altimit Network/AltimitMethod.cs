@@ -77,13 +77,23 @@ namespace Altimit {
 		// Ivokes a method by a string name and a the paramaters in a list
 		//</summary>
 		public void CallAltimitMethod(string methodName, params object[] paramaters){
-			foreach (MethodBase m in altimitMethods) {
+            bool isRPC = methodName == "AltimitRPCInvoker";
+
+            foreach (MethodBase m in altimitMethods) {
 				if (m.Name == methodName) {
-					if (CompareTypes(m.GetParameters(), paramaters)) {
-						object instance = Activator.CreateInstance (m.DeclaringType);
+					if (CompareTypes(m.GetParameters(), paramaters) || isRPC) {
+
+                        object instance = Activator.CreateInstance (m.DeclaringType);
 
 						try {
-							m.Invoke (instance, paramaters);
+                            if (isRPC){
+                                System.Object[] paramDumb = new System.Object[] { paramaters };
+                                m.Invoke(instance, paramDumb);
+                            }
+                            else {
+                                m.Invoke(instance, paramaters);
+                            }
+
 							return;
 						} catch (Exception e) {
 							Debug.Log (e.ToString ());

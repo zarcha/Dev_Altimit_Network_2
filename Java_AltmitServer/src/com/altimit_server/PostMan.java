@@ -1,5 +1,6 @@
 package com.altimit_server;
 
+import com.altimit_server.types.ClientInfo;
 import com.altimit_server.types.User;
 import com.altimit_server.util.AltimitConverter;
 

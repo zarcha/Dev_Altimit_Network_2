@@ -1,45 +1,48 @@
 Initialize engine version: 5.6.0f3 (497a0f351392)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 980 (ID=0x13c0)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
     Vendor:   NVIDIA
     VRAM:     3072 MB
-    Driver:   9.18.13.5012
+    Driver:   21.21.13.7849
 Begin MonoManager ReloadAssembly
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.021 seconds
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\System.dll (this message is harmless)
-desktop: 2560x1440 59Hz; virtual: 6400x1440 at -1920,0
+Platform assembly: C:\Users\zarch\Documents\Projects\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\zarch\Documents\Projects\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\zarch\Documents\Projects\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\zarch\Documents\Projects\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\zarch\Documents\Projects\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\zarch\Documents\Projects\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\zarch\Documents\Projects\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\zarch\Documents\Projects\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\zarch\Documents\Projects\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\zarch\Documents\Projects\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.025 seconds
+Platform assembly: C:\Users\zarch\Documents\Projects\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\zarch\Documents\Projects\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\System.dll (this message is harmless)
+desktop: 2560x1080 60Hz; virtual: 3640x1920 at -1080,-649
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.986562 ms
+UnloadTime: 1.339056 ms
 Compiling all Altimit methods...
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\Mono.Security.dll (this message is harmless)
+Platform assembly: C:\Users\zarch\Documents\Projects\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\Mono.Security.dll (this message is harmless)
 Finished compiling Altimit methods...
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Setting up 4 worker threads for Enlighten.
-  Thread -> id: 42c0 -> priority: 1 
-  Thread -> id: 44c8 -> priority: 1 
-  Thread -> id: 2fcc -> priority: 1 
-  Thread -> id: 1f28 -> priority: 1 
+Setting up 3 worker threads for Enlighten.
+  Thread -> id: 60 -> priority: 1 
+  Thread -> id: 3558 -> priority: 1 
+  Thread -> id: 2660 -> priority: 1 
 Client connected to 192.168.56.1:1313
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 1
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -47,72 +50,15 @@ Bytes sent: 108
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 76
+Server Heart Beat
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Joined room: test
+Server Heart Beat
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-got stuff
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ArgumentException: An element with the same key already exists in the dictionary.
-  at System.Collections.Generic.Dictionary`2[System.Int32,UnityEngine.GameObject].Add (Int32 key, UnityEngine.GameObject value) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitViewHandler.RegisterNetworkObject (UnityEngine.GameObject netObject, Int32 viewId) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitNetwork+<Instantiate>c__AnonStorey2.<>m__0 () [0x00000] in <filename unknown>:0 
-  at TaskManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-Initialize engine version: 5.6.0f3 (497a0f351392)
-GfxDevice: creating device client; threaded=1
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 980 (ID=0x13c0)
-    Vendor:   NVIDIA
-    VRAM:     3072 MB
-    Driver:   9.18.13.5012
-Begin MonoManager ReloadAssembly
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.026 seconds
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\System.dll (this message is harmless)
-desktop: 2560x1440 59Hz; virtual: 6400x1440 at -1920,0
-<RI> Initializing input.
-<RI> Input initialized.
-<RI> Initialized touch support.
-UnloadTime: 1.035277 ms
-Compiling all Altimit methods...
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\Mono.Security.dll (this message is harmless)
-Finished compiling Altimit methods...
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Setting up 4 worker threads for Enlighten.
-  Thread -> id: 3f00 -> priority: 1 
-  Thread -> id: 2c30 -> priority: 1 
-  Thread -> id: 388c -> priority: 1 
-  Thread -> id: 2f68 -> priority: 1 
-Client connected to 192.168.56.1:1313
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 108
+Length: 2
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -124,307 +70,11 @@ Joined room: test
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-ArgumentException: An element with the same key already exists in the dictionary.
-  at System.Collections.Generic.Dictionary`2[System.Int32,UnityEngine.GameObject].Add (Int32 key, UnityEngine.GameObject value) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitViewHandler.RegisterNetworkObject (UnityEngine.GameObject netObject, Int32 viewId) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitNetwork+<Instantiate>c__AnonStorey2.<>m__0 () [0x00000] in <filename unknown>:0 
-  at TaskManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-ArgumentException: An element with the same key already exists in the dictionary.
-  at System.Collections.Generic.Dictionary`2[System.Int32,UnityEngine.GameObject].Add (Int32 key, UnityEngine.GameObject value) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitViewHandler.RegisterNetworkObject (UnityEngine.GameObject netObject, Int32 viewId) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitNetwork+<Instantiate>c__AnonStorey2.<>m__0 () [0x00000] in <filename unknown>:0 
-  at TaskManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-ArgumentException: An element with the same key already exists in the dictionary.
-  at System.Collections.Generic.Dictionary`2[System.Int32,UnityEngine.GameObject].Add (Int32 key, UnityEngine.GameObject value) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitViewHandler.RegisterNetworkObject (UnityEngine.GameObject netObject, Int32 viewId) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitNetwork+<Instantiate>c__AnonStorey2.<>m__0 () [0x00000] in <filename unknown>:0 
-  at TaskManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-ArgumentException: An element with the same key already exists in the dictionary.
-  at System.Collections.Generic.Dictionary`2[System.Int32,UnityEngine.GameObject].Add (Int32 key, UnityEngine.GameObject value) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitViewHandler.RegisterNetworkObject (UnityEngine.GameObject netObject, Int32 viewId) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitNetwork+<Instantiate>c__AnonStorey2.<>m__0 () [0x00000] in <filename unknown>:0 
-  at TaskManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-ArgumentException: An element with the same key already exists in the dictionary.
-  at System.Collections.Generic.Dictionary`2[System.Int32,UnityEngine.GameObject].Add (Int32 key, UnityEngine.GameObject value) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitViewHandler.RegisterNetworkObject (UnityEngine.GameObject netObject, Int32 viewId) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitNetwork+<Instantiate>c__AnonStorey2.<>m__0 () [0x00000] in <filename unknown>:0 
-  at TaskManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-ArgumentException: An element with the same key already exists in the dictionary.
-  at System.Collections.Generic.Dictionary`2[System.Int32,UnityEngine.GameObject].Add (Int32 key, UnityEngine.GameObject value) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitViewHandler.RegisterNetworkObject (UnityEngine.GameObject netObject, Int32 viewId) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitNetwork+<Instantiate>c__AnonStorey2.<>m__0 () [0x00000] in <filename unknown>:0 
-  at TaskManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-ArgumentException: An element with the same key already exists in the dictionary.
-  at System.Collections.Generic.Dictionary`2[System.Int32,UnityEngine.GameObject].Add (Int32 key, UnityEngine.GameObject value) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitViewHandler.RegisterNetworkObject (UnityEngine.GameObject netObject, Int32 viewId) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitNetwork+<Instantiate>c__AnonStorey2.<>m__0 () [0x00000] in <filename unknown>:0 
-  at TaskManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
 got stuff
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-ArgumentException: An element with the same key already exists in the dictionary.
-  at System.Collections.Generic.Dictionary`2[System.Int32,UnityEngine.GameObject].Add (Int32 key, UnityEngine.GameObject value) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitViewHandler.RegisterNetworkObject (UnityEngine.GameObject netObject, Int32 viewId) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitNetwork+<Instantiate>c__AnonStorey2.<>m__0 () [0x00000] in <filename unknown>:0 
-  at TaskManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-Bytes sent: 118
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 76
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Joined room: test
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ArgumentException: An element with the same key already exists in the dictionary.
-  at System.Collections.Generic.Dictionary`2[System.Int32,UnityEngine.GameObject].Add (Int32 key, UnityEngine.GameObject value) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitViewHandler.RegisterNetworkObject (UnityEngine.GameObject netObject, Int32 viewId) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitNetwork+<Instantiate>c__AnonStorey2.<>m__0 () [0x00000] in <filename unknown>:0 
-  at TaskManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-got stuff
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ArgumentException: An element with the same key already exists in the dictionary.
-  at System.Collections.Generic.Dictionary`2[System.Int32,UnityEngine.GameObject].Add (Int32 key, UnityEngine.GameObject value) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitViewHandler.RegisterNetworkObject (UnityEngine.GameObject netObject, Int32 viewId) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitNetwork+<Instantiate>c__AnonStorey2.<>m__0 () [0x00000] in <filename unknown>:0 
-  at TaskManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-got stuff
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -432,7 +82,19 @@ Bytes sent: 118
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Going to send RPC
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bytes sent: 94
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -440,7 +102,15 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Method Name: TestRPCFunction
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+My ViewID: 5000
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -448,7 +118,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -456,7 +126,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -464,7 +134,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -472,7 +142,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -480,7 +150,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -488,7 +158,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -496,7 +166,11 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Server Heart Beat
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -504,87 +178,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Initialize engine version: 5.6.0f3 (497a0f351392)
-GfxDevice: creating device client; threaded=1
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 980 (ID=0x13c0)
-    Vendor:   NVIDIA
-    VRAM:     3072 MB
-    Driver:   9.18.13.5012
-Begin MonoManager ReloadAssembly
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.026 seconds
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\System.dll (this message is harmless)
-desktop: 2560x1440 59Hz; virtual: 6400x1440 at -1920,0
-<RI> Initializing input.
-<RI> Input initialized.
-<RI> Initialized touch support.
-UnloadTime: 1.035861 ms
-Compiling all Altimit methods...
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\Mono.Security.dll (this message is harmless)
-Finished compiling Altimit methods...
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Setting up 4 worker threads for Enlighten.
-  Thread -> id: 1204 -> priority: 1 
-  Thread -> id: 3788 -> priority: 1 
-  Thread -> id: 129c -> priority: 1 
-Client connected to 192.168.56.1:1313
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 108
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 76
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Joined room: test
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-got stuff
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-got stuff
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-got stuff
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ArgumentException: An element with the same key already exists in the dictionary.
-  at System.Collections.Generic.Dictionary`2[System.Int32,UnityEngine.GameObject].Add (Int32 key, UnityEngine.GameObject value) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitViewHandler.RegisterNetworkObject (UnityEngine.GameObject netObject, Int32 viewId) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitNetwork+<Instantiate>c__AnonStorey2.<>m__0 () [0x00000] in <filename unknown>:0 
-  at TaskManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-Bytes sent: 118
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -592,7 +186,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -600,8 +194,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-  Thread -> id: 2d9c -> priority: 1 
-Bytes sent: 115
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -609,7 +202,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -617,7 +210,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -625,7 +218,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -633,7 +226,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -641,7 +234,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -649,7 +242,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -657,7 +250,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -665,7 +258,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -673,7 +266,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -681,7 +274,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -689,7 +282,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -697,7 +290,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -705,7 +298,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -713,100 +306,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Initialize engine version: 5.6.0f3 (497a0f351392)
-GfxDevice: creating device client; threaded=1
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 980 (ID=0x13c0)
-    Vendor:   NVIDIA
-    VRAM:     3072 MB
-    Driver:   9.18.13.5012
-Begin MonoManager ReloadAssembly
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.042 seconds
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\System.dll (this message is harmless)
-desktop: 2560x1440 59Hz; virtual: 6400x1440 at -1920,0
-<RI> Initializing input.
-<RI> Input initialized.
-<RI> Initialized touch support.
-UnloadTime: 1.019817 ms
-Compiling all Altimit methods...
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Platform assembly: J:\Dev_Altimit_Network_2\Altimit Client\Client_Data\Managed\Mono.Security.dll (this message is harmless)
-Finished compiling Altimit methods...
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Setting up 4 worker threads for Enlighten.
-  Thread -> id: 20fc -> priority: 1 
-  Thread -> id: 2dd4 -> priority: 1 
-  Thread -> id: 1f88 -> priority: 1 
-  Thread -> id: 23d0 -> priority: 1 
-Client connected to 192.168.56.1:1313
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 108
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 76
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Joined room: test
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ArgumentException: An element with the same key already exists in the dictionary.
-  at System.Collections.Generic.Dictionary`2[System.Int32,UnityEngine.GameObject].Add (Int32 key, UnityEngine.GameObject value) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitViewHandler.RegisterNetworkObject (UnityEngine.GameObject netObject, Int32 viewId) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitNetwork+<Instantiate>c__AnonStorey2.<>m__0 () [0x00000] in <filename unknown>:0 
-  at TaskManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-got stuff
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-got stuff
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-ArgumentException: An element with the same key already exists in the dictionary.
-  at System.Collections.Generic.Dictionary`2[System.Int32,UnityEngine.GameObject].Add (Int32 key, UnityEngine.GameObject value) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitViewHandler.RegisterNetworkObject (UnityEngine.GameObject netObject, Int32 viewId) [0x00000] in <filename unknown>:0 
-  at Altimit.AltimitNetwork+<Instantiate>c__AnonStorey2.<>m__0 () [0x00000] in <filename unknown>:0 
-  at TaskManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-got stuff
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-got stuff
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Bytes sent: 118
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -814,7 +314,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -822,7 +322,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -830,7 +330,7 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Bytes sent: 115
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -838,7 +338,207 @@ Bytes sent: 115
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
+Length: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
 Bytes sent: 115
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bytes sent: 115
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bytes sent: 115
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bytes sent: 115
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bytes sent: 115
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bytes sent: 115
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bytes sent: 115
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bytes sent: 115
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bytes sent: 115
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bytes sent: 115
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bytes sent: 115
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bytes sent: 115
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bytes sent: 115
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bytes sent: 115
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bytes sent: 115
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bytes sent: 115
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bytes sent: 115
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bytes sent: 115
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bytes sent: 115
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bytes sent: 115
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bytes sent: 115
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bytes sent: 115
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bytes sent: 115
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bytes sent: 115
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bytes sent: 115
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Length: 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
