@@ -9,7 +9,7 @@ public class AltimitUnity {
 
     @AltimitCmd
     public static void Instantiate(String prefabName, Vector3 position, Quaternion rotation, Integer viewId, UUID clientUUID){
-        UnityObject temp = new UnityObject(viewId, Users.GetId(clientUUID), position, rotation, prefabName);
+        UnityObject temp = new UnityObject(viewId, clientUUID, Users.GetId(clientUUID), position, rotation, prefabName);
         String room = Users.GetRoomName(clientUUID);
         Rooms.AddUnityObject(room, temp, clientUUID);
     }

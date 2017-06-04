@@ -6,7 +6,147 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="545100e2-6d83-486b-87cd-70a0666b9f34" name="Default" comment="removed hazelcast file since its not needed" />
+    <list default="true" id="545100e2-6d83-486b-87cd-70a0666b9f34" name="Default" comment="removed hazelcast file since its not needed">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/Mono.Cecil.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/SyntaxTree.VisualStudio.Unity.Bridge.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Android.Extensions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Android.Extensions.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Graphs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.LinuxStandalone.Extensions.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.OSXStandalone.Extensions.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.WSA.Extensions.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.WindowsStandalone.Extensions.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.iOS.Extensions.Common.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.iOS.Extensions.Xcode.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.iOS.Extensions.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/AssetServerCacheV3" afterPath="$PROJECT_DIR$/../Altimit Client/Library/AssetServerCacheV3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/InspectorExpandedItems.asset" afterPath="$PROJECT_DIR$/../Altimit Client/Library/InspectorExpandedItems.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb" afterPath="$PROJECT_DIR$/../Altimit Client/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/ScriptMapper" afterPath="$PROJECT_DIR$/../Altimit Client/Library/ScriptMapper" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/ShaderCache.db" afterPath="$PROJECT_DIR$/../Altimit Client/Library/ShaderCache.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/Mono.Cecil.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/Mono.Cecil.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/SyntaxTree.VisualStudio.Unity.Bridge.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/SyntaxTree.VisualStudio.Unity.Bridge.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Advertisements.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Advertisements.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Analytics.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Analytics.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Graphs.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Graphs.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.HoloLens.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.HoloLens.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.LinuxStandalone.Extensions.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.LinuxStandalone.Extensions.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Networking.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Networking.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.OSXStandalone.Extensions.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.OSXStandalone.Extensions.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Purchasing.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Purchasing.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.TestRunner.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.TestRunner.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.TreeEditor.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.TreeEditor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.UI.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.UI.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.VR.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.VR.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.WSA.Extensions.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.WSA.Extensions.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.WindowsStandalone.Extensions.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.WindowsStandalone.Extensions.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.iOS.Extensions.Common.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.iOS.Extensions.Common.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.iOS.Extensions.Xcode.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.iOS.Extensions.Xcode.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.iOS.Extensions.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.iOS.Extensions.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.TestRunner.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.TestRunner.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.UI.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.UI.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/nunit.framework.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/nunit.framework.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/assetDatabase3" afterPath="$PROJECT_DIR$/../Altimit Client/Library/assetDatabase3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000004000000000000000" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000004000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000006100000000000000" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000006100000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/0b/0bfb2599080d5d24e84362b4ae314ae7" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/0b/0bfb2599080d5d24e84362b4ae314ae7" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/0d/0d9d26e2162aa4d11ab075b34c029673" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/0d/0d9d26e2162aa4d11ab075b34c029673" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/10/1062212255550964e974f3ffb3cbaae3" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/10/1062212255550964e974f3ffb3cbaae3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/1c/1c52c953c83c2254a9fa72d50250f028" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/1c/1c52c953c83c2254a9fa72d50250f028" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/1c/1cb8ed3cbba15f0479fbae54e0a963df" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/1c/1cb8ed3cbba15f0479fbae54e0a963df" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/29/29486a9cd1773f44f80570b5bd896a1d" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/29/29486a9cd1773f44f80570b5bd896a1d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/2d/2dac79461900e0f4c93561031c2e6902" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/2d/2dac79461900e0f4c93561031c2e6902" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/30/307433eba81a469ab1e2084d52d1a5a2" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/30/307433eba81a469ab1e2084d52d1a5a2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/31/314f49b24dc9d5d40956a7b28c67b237" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/31/314f49b24dc9d5d40956a7b28c67b237" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/32/32188fd89022c154c81befa2f0e00be0" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/32/32188fd89022c154c81befa2f0e00be0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/40/405b9b51bb344a128608d968297df79c" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/40/405b9b51bb344a128608d968297df79c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/41/4113173d5e95493ab8765d7b08371de4" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/41/4113173d5e95493ab8765d7b08371de4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/41/41b808ba7c2f15e47bef4912db87d7c5" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/41/41b808ba7c2f15e47bef4912db87d7c5" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/41/41db8cbfecdbdb54ab2bac971c05547a" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/41/41db8cbfecdbdb54ab2bac971c05547a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/42/4277762b3c154fab9f2e968e868bbbd7" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/42/4277762b3c154fab9f2e968e868bbbd7" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/43/438c5036def53d643a5c720213903c0f" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/43/438c5036def53d643a5c720213903c0f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/51/517af1b5b81b93b43b9745d58f017562" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/51/517af1b5b81b93b43b9745d58f017562" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/51/51dd2e4c869794f75a0df7d54b210214" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/51/51dd2e4c869794f75a0df7d54b210214" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/52/52a206b72a8f4f749c28d8b18b42dd19" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/52/52a206b72a8f4f749c28d8b18b42dd19" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/5d/5d2f1a0944eff024ab396500807b91cd" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/5d/5d2f1a0944eff024ab396500807b91cd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/5e/5eebb5849c50a2c4ea24ded96e6f3aac" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/5e/5eebb5849c50a2c4ea24ded96e6f3aac" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/67/67e9dad5654047ebbe623cce9dbf7b38" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/67/67e9dad5654047ebbe623cce9dbf7b38" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/69/696c0e7b8c74e1442acbf15c2df9e72d" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/69/696c0e7b8c74e1442acbf15c2df9e72d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/6a/6abf4b4cbfd0454e850ffc1ec9140b58" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/6a/6abf4b4cbfd0454e850ffc1ec9140b58" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/6c/6c2f4b9bc2ae1c1419ea3cbb1ab62835" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/6c/6c2f4b9bc2ae1c1419ea3cbb1ab62835" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/6c/6cdf1e5c78d14720aaadccd4c792df96" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/6c/6cdf1e5c78d14720aaadccd4c792df96" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/6f/6fb3851da6a6f5948ab6892bee8ba920" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/6f/6fb3851da6a6f5948ab6892bee8ba920" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/70/7076a2a45ec52cc469dff98247300c0f" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/70/7076a2a45ec52cc469dff98247300c0f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/71/71398ce7fbc3a5b4fa50b50bd54317a7" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/71/71398ce7fbc3a5b4fa50b50bd54317a7" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/83/8382b2bb260241859771b69b7f377a8d" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/83/8382b2bb260241859771b69b7f377a8d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/85/852e56802eb941638acbb491814497b0" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/85/852e56802eb941638acbb491814497b0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/86/86f4de9468454445ac2f39e207fafa3a" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/86/86f4de9468454445ac2f39e207fafa3a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/89/8912f13e18e67bc478684ec30d73bc64" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/89/8912f13e18e67bc478684ec30d73bc64" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/8c/8c32f58513a41ef4dab9cb7704c5fb92" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/8c/8c32f58513a41ef4dab9cb7704c5fb92" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/8e/8e0cd8ed44d4412cbe0642067abc9e44" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/8e/8e0cd8ed44d4412cbe0642067abc9e44" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/94/943e057eaae705e43b9e9b2e53d6adb0" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/94/943e057eaae705e43b9e9b2e53d6adb0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/a0/a0245c71eb710114392b7dcfe5484e1b" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/a0/a0245c71eb710114392b7dcfe5484e1b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/ae/aef224e1951a8274684081643c7fa672" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/ae/aef224e1951a8274684081643c7fa672" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b1/b1a5e04ae51004842aba06704a6c2903" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b1/b1a5e04ae51004842aba06704a6c2903" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b2/b235179bd2a63d1468dd430670338c55" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b2/b235179bd2a63d1468dd430670338c55" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b2/b27507c5d0efbbd47ac8c1de9a1a0a35" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b2/b27507c5d0efbbd47ac8c1de9a1a0a35" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b9/b92bcd59b29b08448a522149e8138a28" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b9/b92bcd59b29b08448a522149e8138a28" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/bb/bb141fc9a700c9c4ca7e6dadb8acf24b" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/bb/bb141fc9a700c9c4ca7e6dadb8acf24b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/d0/d05d496cb4f43c14e80630addd23652e" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/d0/d05d496cb4f43c14e80630addd23652e" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/d2/d2d7bc67dfb2b514087e9e15d4a52d44" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/d2/d2d7bc67dfb2b514087e9e15d4a52d44" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/d8/d89ea37480b6d75458aa38843e9688dc" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/d8/d89ea37480b6d75458aa38843e9688dc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/df/dffa50cfe77e0434bbfa71245b3dd529" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/df/dffa50cfe77e0434bbfa71245b3dd529" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/e0/e09f07f9be24b2d4180a74a671348b5b" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/e0/e09f07f9be24b2d4180a74a671348b5b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/eb/eb0e763ded53048dd80e7b78c35ded56" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/eb/eb0e763ded53048dd80e7b78c35ded56" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f0/f03e10c73f30b4ab4aa8ea8f1cc16d36" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f0/f03e10c73f30b4ab4aa8ea8f1cc16d36" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f2/f2bed5dc5afacff44a00de8daae9703b" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f2/f2bed5dc5afacff44a00de8daae9703b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f4/f48df919adea4fa095a7407e773e5aa4" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f4/f48df919adea4fa095a7407e773e5aa4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f7/f70555f144d8491a825f0804e09c671c" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f7/f70555f144d8491a825f0804e09c671c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f9/f93df448921b46c45999c77f43856ba2" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f9/f93df448921b46c45999c77f43856ba2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Altimit Client.Editor.Plugins.csproj" afterPath="$PROJECT_DIR$/../Altimit Client/Altimit Client.Editor.Plugins.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Altimit Client.Editor.csproj" afterPath="$PROJECT_DIR$/../Altimit Client/Altimit Client.Editor.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Altimit Client.Plugins.csproj" afterPath="$PROJECT_DIR$/../Altimit Client/Altimit Client.Plugins.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Altimit Client.csproj" afterPath="$PROJECT_DIR$/../Altimit Client/Altimit Client.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Altimit Client.sln" afterPath="$PROJECT_DIR$/../Altimit Client/Altimit Client.sln" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs" afterPath="$PROJECT_DIR$/../Altimit Client/Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Assets/Standard Assets/Utility/PlatformSpecificContent.cs" afterPath="$PROJECT_DIR$/../Altimit Client/Assets/Standard Assets/Utility/PlatformSpecificContent.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/ScriptAssemblies/BuiltinAssemblies.stamp" afterPath="$PROJECT_DIR$/../Altimit Client/Library/ScriptAssemblies/BuiltinAssemblies.stamp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.xml" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.xml" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/nunit.framework.xml" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/nunit.framework.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/version.txt" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/version.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterPath="$PROJECT_DIR$/../Altimit Client/Library/shadercompiler-UnityShaderCompiler.exe0.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/ProjectSettings/ProjectVersion.txt" afterPath="$PROJECT_DIR$/../Altimit Client/ProjectSettings/ProjectVersion.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Hazelcast/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../Altimit Hazelcast/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Hazelcast/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Altimit Hazelcast/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_google_code_gson_gson_2_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_google_code_gson_gson_2_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_sparkjava_spark_core_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_sparkjava_spark_core_2_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_reflections_reflections_0_9_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_reflections_reflections_0_9_10.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/config.properties" afterPath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_AltmitServer/config.properties" afterPath="$PROJECT_DIR$/out/production/Java_AltmitServer/config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/altimit_server/config.properties" afterPath="$PROJECT_DIR$/src/com/altimit_server/config.properties" />
+    </list>
     <ignored path="Java_AltmitServer.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,24 +170,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BodyParse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/altimit_server/util/BodyParse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AltimitUnity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/altimit_server/AltimitUnity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="18" column="65" lean-forward="false" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,35 +183,23 @@
       <file leaf-file-name="main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/altimit_server/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="459">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#11873#11874#0" expanded="true" />
-                <element signature="e#11916#11917#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AltimitHttpServer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AltimitHttpServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/altimit_server/ControlPanel/AltimitHttpServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+            <state relative-caret-position="476">
+              <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AltimitInvoker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/altimit_server/AltimitInvoker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -91,13 +207,65 @@
       <file leaf-file-name="PropertiesManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/altimit_server/util/PropertiesManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="48" column="19" lean-forward="false" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+            <state relative-caret-position="255">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1317#1318#0" expanded="true" />
-                <element signature="e#1395#1396#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out/production/Java_AltmitServer/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Users.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/altimit_server/Users.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnityObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/altimit_server/types/UnityObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1026">
+              <caret line="85" column="20" lean-forward="true" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rooms.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/altimit_server/Rooms.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="69" column="7" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Room.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/altimit_server/types/Room.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="45" column="43" lean-forward="false" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,44 +273,8 @@
       <file leaf-file-name="AltimitMethod.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/altimit_server/AltimitMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
+            <state relative-caret-position="1751">
               <caret line="110" column="34" lean-forward="false" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2595#2608#0" expanded="true" />
-                <element signature="e#3396#3404#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AltimitRest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/altimit_server/ControlPanel/AltimitRest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="68" column="37" lean-forward="false" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonTransformer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/altimit_server/util/JsonTransformer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AltimitCmd.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/altimit_server/AltimitCmd.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -182,7 +314,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/AltimitCmd.java" />
         <option value="$PROJECT_DIR$/src/main.java" />
         <option value="$PROJECT_DIR$/src/AltimitMethod.java" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/interfaces/AltimitCmd.java" />
@@ -210,20 +341,15 @@
         <option value="$PROJECT_DIR$/hazelcast-all-3.6.2.jar!/com/hazelcast/client/proxy/ClientMapProxy.class" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/AltimitCmd.java" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/types/AltimitObject.java" />
-        <option value="$PROJECT_DIR$/src/com/altimit_server/types/UnityObject.java" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/services/PostMan.java" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/services/AltimitHeatBeat.java" />
-        <option value="$PROJECT_DIR$/src/com/altimit_server/types/Room.java" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/AltimitHeatBeat.java" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/PostMan.java" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/util/AltimitInvoker.java" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/util/AltimitConverter.java" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/util/properties.java" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/util/Properties.java" />
-        <option value="$PROJECT_DIR$/src/com/altimit_server/config.properties" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/AltimitRest.java" />
-        <option value="$PROJECT_DIR$/src/com/altimit_server/Rooms.java" />
-        <option value="$PROJECT_DIR$/src/com/altimit_server/AltimitUnity.java" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/types/ClientInfo.java" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/AltimitInvoker.java" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/Users.java" />
@@ -233,6 +359,12 @@
         <option value="$PROJECT_DIR$/src/com/altimit_server/ControlPanel/AltimitRest.java" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/AltimitMethod.java" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/main.java" />
+        <option value="$PROJECT_DIR$/src/com/altimit_server/config.properties" />
+        <option value="$PROJECT_DIR$/out/production/Java_AltmitServer/config.properties" />
+        <option value="$PROJECT_DIR$/src/com/altimit_server/types/UnityObject.java" />
+        <option value="$PROJECT_DIR$/src/com/altimit_server/types/Room.java" />
+        <option value="$PROJECT_DIR$/src/com/altimit_server/AltimitUnity.java" />
+        <option value="$PROJECT_DIR$/src/com/altimit_server/Rooms.java" />
       </list>
     </option>
   </component>
@@ -283,6 +415,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -371,15 +505,71 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="types" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java_AltmitServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java_AltmitServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="altimit_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="ControlPanel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java_AltmitServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java_AltmitServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="production" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java_AltmitServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java_AltmitServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java_AltmitServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -659,6 +849,7 @@
       <envs />
       <method>
         <option name="MakeProject" enabled="false" />
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list size="2">
@@ -806,7 +997,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3173516" sideWeight="0.57184327" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31712472" sideWeight="0.57184327" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17970401" sideWeight="0.49201742" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -815,12 +1006,11 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12578125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52219874" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23890063" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23890063" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -832,6 +1022,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52219874" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -884,13 +1075,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/util/AltimitConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="219" column="0" lean-forward="false" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/altimit_server/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1013,20 +1197,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/types/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/types/UnityObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_92/src.zip!/java/lang/Thread.java" />
     <entry file="file://$PROJECT_DIR$/src/com/altimit_server/types/Vector3.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1041,38 +1211,9 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/net/URLClassLoader.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Runnable.java" />
     <entry file="file://$PROJECT_DIR$/src/com/altimit_server/AltimitHeatBeat.java" />
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_92/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="677" column="0" lean-forward="false" selection-start-line="677" selection-start-column="0" selection-end-line="677" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_92/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="231" column="0" lean-forward="false" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/sparkjava/spark-core/2.5/spark-core-2.5.jar!/spark/Service.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="84" column="93" lean-forward="true" selection-start-line="84" selection-start-column="93" selection-end-line="84" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_92/src.zip!/java/lang/Class.java" />
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_92/src.zip!/java/net/URLClassLoader.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/sparkjava/spark-core/2.5/spark-core-2.5.jar!/spark/Service.class" />
     <entry file="file://$PROJECT_DIR$/src/com/altimit_server/AlimitHeartBeat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1095,25 +1236,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="110" column="10" lean-forward="true" selection-start-line="110" selection-start-column="10" selection-end-line="110" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/Rooms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1121,7 +1243,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1129,19 +1250,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/util/PropertiesManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="48" column="19" lean-forward="false" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1317#1318#0" expanded="true" />
-            <element signature="e#1395#1396#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1163,11 +1271,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/altimit_server/ControlPanel/AltimitRest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
+        <state relative-caret-position="1003">
           <caret line="68" column="37" lean-forward="false" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1181,20 +1287,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/altimit_server/AltimitMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
+        <state relative-caret-position="1751">
           <caret line="110" column="34" lean-forward="false" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2595#2608#0" expanded="true" />
-            <element signature="e#3396#3404#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/AltimitUnity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/ControlPanel/AltimitHttpServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="476">
+          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1203,20 +1305,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/altimit_server/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#11873#11874#0" expanded="true" />
-            <element signature="e#11916#11917#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/ControlPanel/AltimitHttpServer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        <state relative-caret-position="51">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/util/PropertiesManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Java_AltmitServer/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/types/UnityObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="85" column="20" lean-forward="true" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/types/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="45" column="43" lean-forward="false" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/AltimitUnity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="65" lean-forward="false" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/Rooms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="69" column="7" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

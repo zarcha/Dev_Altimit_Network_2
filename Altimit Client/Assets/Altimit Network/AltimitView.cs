@@ -10,6 +10,8 @@ public class AltimitView : MonoBehaviour {
 	public int subId;
 	public int ownerID;
 
+    public string ownerName;
+
 	public bool sceneView = false;
 
     long lastUpdate = 0L;

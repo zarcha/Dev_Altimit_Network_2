@@ -14,7 +14,7 @@ public class Player : MonoBehaviour {
         {
             gameObject.GetComponent<FirstPersonController>().enabled = false;
             gameObject.GetComponent<CharacterController>().enabled = false;
-            camObj.SetActive(false);
+            Destroy(camObj);
         }
 	}
 

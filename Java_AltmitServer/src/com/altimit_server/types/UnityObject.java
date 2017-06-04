@@ -1,6 +1,7 @@
 package com.altimit_server.types;
 
 import java.io.Serializable;
+import java.util.UUID;
 
 /**
  * UnityObject is used for storing network object data
@@ -18,6 +19,8 @@ public class UnityObject implements Serializable {
     /** The name of the prefab this object. **/
     public String prefabName;
 
+    public UUID ownerUUID;
+
     /**
      * The constructor to create a network object that has tracking of position and rotation.
      * @param viewId The view id of the objects AltimitView.
@@ -26,9 +29,10 @@ public class UnityObject implements Serializable {
      * @param rotation The world rotation of the network object
      * @param prefabName The name of the prefab this object represents.
      */
-    public UnityObject(int viewId, int clientId, Vector3 position, Quaternion rotation, String prefabName) {
+    public UnityObject(int viewId, UUID ownerUUID, int clientId, Vector3 position, Quaternion rotation, String prefabName) {
         this.viewId = viewId;
         this.clientId = clientId;
+        this.ownerUUID = ownerUUID;
         this.position = position;
         this.rotation = rotation;
         this.prefabName = prefabName;
@@ -40,8 +44,9 @@ public class UnityObject implements Serializable {
      * @param clientId The client id that created this network object.
      * @param prefabName The name of the prefab this object represents.
      */
-    public UnityObject(int viewId, int clientId, String prefabName) {
+    public UnityObject(int viewId, UUID ownerUUID, int clientId, String prefabName) {
         this.viewId = viewId;
+        this.ownerUUID = ownerUUID;
         this.clientId = clientId;
         this.prefabName = prefabName;
     }
@@ -53,8 +58,9 @@ public class UnityObject implements Serializable {
      * @param rotation The world rotation of the network object.
      * @param prefabName The name of the prefab this object represents.
      */
-    public UnityObject(int viewId, int clientId, Quaternion rotation, String prefabName) {
+    public UnityObject(int viewId, UUID ownerUUID, int clientId, Quaternion rotation, String prefabName) {
         this.viewId = viewId;
+        this.ownerUUID = ownerUUID;
         this.clientId = clientId;
         this.rotation = rotation;
         this.prefabName = prefabName;
@@ -67,8 +73,9 @@ public class UnityObject implements Serializable {
      * @param position The world position of this network object.
      * @param prefabName The name of the prefab this object represents.
      */
-    public UnityObject(int viewId, int clientId, Vector3 position, String prefabName) {
+    public UnityObject(int viewId, UUID ownerUUID, int clientId, Vector3 position, String prefabName) {
         this.viewId = viewId;
+        this.ownerUUID = ownerUUID;
         this.clientId = clientId;
         this.position = position;
         this.prefabName = prefabName;
@@ -79,8 +86,9 @@ public class UnityObject implements Serializable {
      * @param viewId
      * @param prefabName
      */
-    public UnityObject(int viewId, String prefabName){
+    public UnityObject(int viewId, UUID ownerUUID, String prefabName){
         this.viewId = viewId;
+        this.ownerUUID = ownerUUID;
         this.prefabName = prefabName;
     }
 }

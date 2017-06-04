@@ -8,6 +8,7 @@ public class RoomSandbox: MonoBehaviour {
     public GameObject roomLabel;
     public GameObject userCountLabel;
     public GameObject newRoomTextbox;
+    public GameObject usernameTextbox;
     public GameObject cube;
     public GameObject canvas;
 
@@ -32,4 +33,9 @@ public class RoomSandbox: MonoBehaviour {
         mainCamera.enabled = false;
         canvas.SetActive(false);
 	}
+
+    public void setUsername()
+    {
+        AltimitPlayer.Username = usernameTextbox.GetComponent<InputField>().text;
+    }
 }

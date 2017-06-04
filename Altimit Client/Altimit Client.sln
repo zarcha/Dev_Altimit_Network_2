@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altimit Client.Plugins", "Altimit Client.Plugins.csproj", "{DFB24734-419C-EFC5-F051-546F4AF65B38}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altimit Client", "Altimit Client.csproj", "{1ED56DE0-3329-88D5-66D8-B0507934E375}"

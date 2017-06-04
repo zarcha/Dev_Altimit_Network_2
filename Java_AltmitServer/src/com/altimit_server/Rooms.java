@@ -55,7 +55,7 @@ public class Rooms {
                 while (it.hasNext()) {
                     Map.Entry pair = (Map.Entry)it.next();
                     UnityObject object = (UnityObject)pair.getValue();
-                    PostMan.SendPost(clientUUID, "Instantiate", object.prefabName, object.position, object.rotation, object.viewId, object.clientId);
+                    PostMan.SendPost(clientUUID, "Instantiate", object.prefabName, object.position, object.rotation, object.viewId, object.clientId, Users.GetUsername(object.ownerUUID));
                 }
             }
         }
@@ -142,7 +142,7 @@ public class Rooms {
             tempRoom.AddNetworkObject(netObject.viewId, netObject);
             roomMap.put(roomName, tempRoom);
 
-            PostMan.SendPost(roomName, "Instantiate", netObject.prefabName, netObject.position, netObject.rotation, netObject.viewId, netObject.clientId);
+            PostMan.SendPost(roomName, "Instantiate", netObject.prefabName, netObject.position, netObject.rotation, netObject.viewId, netObject.clientId,  Users.GetUsername(clientUUID));
         }
     }
 

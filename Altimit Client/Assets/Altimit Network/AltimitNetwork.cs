@@ -295,13 +295,14 @@ namespace Altimit {
 		}
 
 		[AltimitRPC]
-		private void Instantiate(string prefabName, Vector3 position, Quaternion rotation, int viewId, int ownerId){
+		private void Instantiate(string prefabName, Vector3 position, Quaternion rotation, int viewId, int ownerId, string ownerName){
 			tasker.ScheduleTask (new Task (delegate {
 				GameObject obj = (GameObject)GameObject.Instantiate((GameObject)Resources.Load (prefabName), position, rotation);
 				obj.GetComponent<AltimitView>().viewID = viewId;
                 obj.GetComponent<AltimitView>().ownerID = ownerId;
                 obj.GetComponent<AltimitView>().sceneView = false;
-				AltimitViewHandler.RegisterNetworkObject(obj, viewId);
+                obj.GetComponent<AltimitView>().ownerName = ownerName;
+                AltimitViewHandler.RegisterNetworkObject(obj, viewId);
 			}));
 		}
 	}
