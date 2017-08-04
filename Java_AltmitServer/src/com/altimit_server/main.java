@@ -11,9 +11,6 @@ import java.nio.ByteBuffer;
 import java.util.*;
 
 import com.altimit_server.util.PropertiesManager;
-import com.hazelcast.client.config.ClientConfig;
-import com.hazelcast.client.HazelcastClient;
-import com.hazelcast.core.HazelcastInstance;
 
 /**
  * This class handles the listening of clients connections, compiling all AltimitCmd classes, and connecting to hazelcast.
@@ -21,9 +18,6 @@ import com.hazelcast.core.HazelcastInstance;
 public class main {
     /** This is the map that links UUID's of each client to their socket. **/
     static Map<UUID, ClientInfo> localClientMap = new HashMap<>();
-
-    /** The hazelcast instance object. **/
-    static HazelcastInstance hazelcastInstance;
 
     private static PropertiesManager propertiesManager = new PropertiesManager(main.class);
 
@@ -42,15 +36,6 @@ public class main {
     }
 
     /**
-     * Handles connection to hazelcast and sets the hazelcastInstance object.
-     */
-    private static void ConnectToHazelcast(String ip, int port){
-        ClientConfig hazelcastConfig = new ClientConfig();
-        hazelcastConfig.addAddress(ip + ":" + port);
-        hazelcastInstance = HazelcastClient.newHazelcastClient(hazelcastConfig);
-    }
-
-    /**
      * Starts the connection to hazelcast, compiles AltimitCmd.
      */
     private static void StartServer() throws Exception{
@@ -59,8 +44,6 @@ public class main {
                             "========    ALTIMIT SERVER  ======== \n" +
                             "==================================== \n");
 
-        //Connect to Hazelcast
-        ConnectToHazelcast(propertiesManager.getHazelcastIp(), propertiesManager.getHazelcastPort());
 
         if(propertiesManager.useRestService()) {
             //Start Rest Server
@@ -119,10 +102,9 @@ public class main {
         /**
          * This is to see if the client has registered its UUID with the server
          */
-        boolean uuidSet = false;
+        UUID clientUUid;
 
         Integer bufSize = 0;
-        List<Object> sentMessage;
 
         /**
          * Sets the socket passed to the thread.
@@ -185,15 +167,15 @@ public class main {
 
                                         //Lets get the convert the byte array message to a list of real variables
                                         List<Object> tSentMessage = AltimitConverter.ReceiveConversion(currentMessage);
+
+                                        tSentMessage.add(clientUUid);
                                         //Make sure this client has an identifier and if it doesnt then see if it is trying to set it. If not then do nothing!
-                                        if (uuidSet) {
+                                        if (clientUUid != null) {
                                             AltimitInvoker tAltimitTask = new AltimitInvoker(tSentMessage);
                                             new Thread(tAltimitTask).start();
 
-                                        } else if (tSentMessage.get(0).equals("SetClientUUID")){
-                                            SetClientUUID((UUID)tSentMessage.get(1));
                                         } else {
-                                            System.out.println("UUID has not been set...");
+                                            MakeClientUUID();
                                         }
 
                                         //if there is more of a message then delete the stuff we just used and if not then reset data
@@ -222,21 +204,22 @@ public class main {
 
         /**
          * This is used to set the UUID of the client so we can identify it and send its socket messages or delete it.
-         * @param sentUUID The self assigned client UUID.
+         * This is also used for pretty much every function since its the main way of looking up information on clients.
           */
-        void SetClientUUID(UUID sentUUID){
-            if(localClientMap.containsKey(sentUUID)){
+        void MakeClientUUID(){
+            UUID newUUID = UUID.randomUUID();
+
+            if(localClientMap.containsKey(newUUID)){
                 System.out.println("UUID has already been registered! Dropping client!...");
-                DisconnectUser(socket, out, in, Thread.currentThread());
+                MakeClientUUID();
             } else {
-                uuidSet = true;
+                clientUUid = newUUID;
+
                 ClientInfo clientTemp = new ClientInfo(socket, out, in, Thread.currentThread());
-                localClientMap.put(sentUUID, clientTemp);
+                localClientMap.put(newUUID, clientTemp);
                 System.out.println("Clients UUID has been set...");
 
-                Users.Add(sentUUID);
-                System.out.println("Client has been created in Hazelcast...");
-                System.out.println(Users.userMap.size() + " are registered...");
+                Users.Add(newUUID);
             }
         }
     }

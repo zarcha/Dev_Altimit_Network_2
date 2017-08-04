@@ -1,10 +1,9 @@
 package com.altimit_server;
 
 import com.altimit_server.types.User;
-import com.hazelcast.core.HazelcastInstance;
-import com.hazelcast.core.IMap;
-import javafx.geometry.Pos;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.UUID;
 
 /**
@@ -12,19 +11,17 @@ import java.util.UUID;
  */
 public class Users {
 
-    /** The current hazelcast instance **/
-    private static HazelcastInstance mainInstance = main.hazelcastInstance;
-
     /** Hazelcast map of use objects  **/
-    public static IMap<UUID, User> userMap = mainInstance.getMap("users");
-    private static IMap<String, Integer> sizeMap = mainInstance.getMap("mapSizes");
+    public static Map<UUID, User> userMap = new HashMap<>();
+
+    private static int userCount = 0;
 
     /**
      * Adds a user object to the Hazelcast map using the client's UUID.
      * @param clientUUID The clients UUID used as the key and stored within the object.
      */
     static void Add(UUID clientUUID){
-        int tempId = sizeMap.get("users") + 1;
+        int tempId = userCount + 1;
         User tempUser = new User(tempId);
         tempUser.uuid = clientUUID;
 
@@ -34,8 +31,7 @@ public class Users {
         }catch (Exception e){
             e.printStackTrace();
         }
-        tempId++;
-        sizeMap.put("users", tempId);
+        userCount = tempId;
     }
 
     /**

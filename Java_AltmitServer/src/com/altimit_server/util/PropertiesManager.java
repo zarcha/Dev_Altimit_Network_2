@@ -1,6 +1,5 @@
 package com.altimit_server.util;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
@@ -32,14 +31,6 @@ public class PropertiesManager {
 
     public int getServerPort(){
         return Integer.parseInt(prop.getProperty("serverPort", "1024"));
-    }
-
-    public String getHazelcastIp(){
-        return prop.getProperty("hazelcastIp", "127.0.0.1");
-    }
-
-    public int getHazelcastPort(){
-        return Integer.parseInt(prop.getProperty("hazelcastPort", "5701"));
     }
 
     public boolean useRestService(){

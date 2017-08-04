@@ -32,9 +32,6 @@ namespace Altimit {
 		//All threads created by messages
 		static List<Thread> threadList = new List<Thread> ();
 
-		//This clients UUID used to identify its self on the server
-        public static Guid playerUUID;
-
 		//Task container to for running code on the main thread
         public static TaskContainer tasker = null;
 
@@ -110,9 +107,6 @@ namespace Altimit {
 
 				Receive(client);
 				sendSocket = client;
-                
-                playerUUID = Guid.NewGuid();
-				Send ("SetClientUUID", playerUUID);
 
 			} catch (Exception e){
 				Debug.LogError (e.ToString ());
@@ -232,8 +226,6 @@ namespace Altimit {
             Debug.Log("Length: " + data.Length);
 
             List<object> tempData = data.ToList<object>();
-            //TODO: find a better way to auto add uuid's for methods that use it on server side
-            tempData.Add(playerUUID);
 			byte[] messageData = AltimitConverter.SendConversion (MethodName, tempData.ToArray());
 
             try

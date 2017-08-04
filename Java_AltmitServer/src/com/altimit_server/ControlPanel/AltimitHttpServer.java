@@ -32,6 +32,8 @@ public class AltimitHttpServer {
                 uri = "/index.html";
             }
 
+            InputStream inputStream = getClass().getClassLoader().getResourceAsStream(uri);
+
             File file = new File(root + uri).getCanonicalFile();
 
             if (!file.getPath().startsWith(root)) {

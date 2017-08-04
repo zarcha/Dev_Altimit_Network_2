@@ -1,24 +1,16 @@
 package com.altimit_server;
 
 import com.altimit_server.types.*;
-import com.hazelcast.core.*;
-
 import java.util.*;
 
 /**
  * This class is used for manipulation of room map data on hazelcast
  */
 public class Rooms {
-
     /**
-     * Hazelcast instance
+     * The user map, this contains the user data
      */
-    private static HazelcastInstance mainInstance = main.hazelcastInstance;
-
-    /**
-     * The user map stored on Hazelcast
-     */
-    public static IMap<String, Room> roomMap = mainInstance.getMap("rooms");
+    public static Map<String, Room> roomMap;
 
     /**
      * Joins a user to a room or creates one if the room deosnt exist.
