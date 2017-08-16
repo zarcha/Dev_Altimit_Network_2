@@ -21,6 +21,8 @@ public class UnityObject implements Serializable {
 
     public UUID ownerUUID;
 
+    public boolean isSceneObject = false;
+
     /**
      * The constructor to create a network object that has tracking of position and rotation.
      * @param viewId The view id of the objects AltimitView.
@@ -84,11 +86,9 @@ public class UnityObject implements Serializable {
     /**
      * The constructor to create a
      * @param viewId
-     * @param prefabName
      */
-    public UnityObject(int viewId, UUID ownerUUID, String prefabName){
+    public UnityObject(int viewId){
         this.viewId = viewId;
-        this.ownerUUID = ownerUUID;
-        this.prefabName = prefabName;
+        isSceneObject = true;
     }
 }

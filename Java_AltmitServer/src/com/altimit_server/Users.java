@@ -27,7 +27,7 @@ public class Users {
 
         try {
             userMap.put(clientUUID, tempUser);
-            PostMan.SendPost(clientUUID, "SetId", tempUser.id);
+            /*PostMan.SendPost(clientUUID, "SetId", tempUser.id);*/
         }catch (Exception e){
             e.printStackTrace();
         }
@@ -52,7 +52,6 @@ public class Users {
      * @param clientUUID Clients UUID used to find and update the user object.
      * @param username Username to be set.
      */
-    @AltimitCmd
     public static void SetUsername(String username, UUID clientUUID){
         User tempUser = userMap.get(clientUUID);
         tempUser.username = username;

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
-using System.Collections.Generic;
 using Altimit;
 using System;
+using System.Collections;
 
 public class AltimitView : MonoBehaviour {
 
@@ -26,7 +26,7 @@ public class AltimitView : MonoBehaviour {
 
     public void Start(){
 		if (sceneView) {
-			AltimitViewHandler.RegisterNetworkObject (this.gameObject, viewID);
+            AltimitViewHandler.RegisterNetworkObject(this.gameObject, viewID);
 		}
 
         InvokeRepeating("UpdateObject", 0f, updateRate);
@@ -34,7 +34,7 @@ public class AltimitView : MonoBehaviour {
 
     public void UpdateObject()
     {
-        if (isMine)
+        if (isMine || (sceneView && AltimitRoom.RoomOwner))
         {
             if (trackState != TrackState.none)
             {
@@ -60,20 +60,36 @@ public class AltimitView : MonoBehaviour {
         }
     }
 
+    private IEnumerator MoveToPosition(Vector3 position, Quaternion rotation, float timeToMove)
+    {
+        Vector3 currentPos = transform.position;
+        Quaternion currentRot = transform.rotation;
+        float t = 0f;
+        while (t < 1)
+        {
+            t += Time.deltaTime / timeToMove;
+            transform.position = Vector3.Lerp(currentPos, position, t);
+            transform.rotation = Quaternion.Lerp(currentRot, rotation, t);
+            yield return null;
+        }
+    }
+
     public void UpdatePositionRotation(Vector3 position, Quaternion rotation, long timeStamp)
     {
-        if(timeStamp > lastUpdate)
+        if (timeStamp > lastUpdate && trackState != TrackState.none)
         {
-            gameObject.transform.position = position;
-            gameObject.transform.rotation = rotation;
+            //gameObject.transform.position = position;
+            StartCoroutine(MoveToPosition(position, rotation, updateRate));
+            //gameObject.transform.rotation = rotation;
             lastUpdate = timeStamp;
         }
     }
 
     public void UpdatePositionRotation(Vector3 position, long timeStamp)
     {
-        if (timeStamp > lastUpdate)
+        if (timeStamp > lastUpdate && trackState != TrackState.none)
         {
+
             gameObject.transform.position = position;
             lastUpdate = timeStamp;
         }
@@ -81,7 +97,7 @@ public class AltimitView : MonoBehaviour {
 
     public void UpdatePositionRotation(Quaternion rotation, long timeStamp)
     {
-        if (timeStamp > lastUpdate)
+        if (timeStamp > lastUpdate && trackState != TrackState.none)
         {
             gameObject.transform.rotation = rotation;
             lastUpdate = timeStamp;

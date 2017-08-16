@@ -7,147 +7,230 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="668bcd42-11be-42c8-be46-750524313c6c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/Mono.Cecil.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/SyntaxTree.VisualStudio.Unity.Bridge.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Android.Extensions.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Android.Extensions.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Graphs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.LinuxStandalone.Extensions.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.OSXStandalone.Extensions.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.WSA.Extensions.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.WindowsStandalone.Extensions.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.iOS.Extensions.Common.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.iOS.Extensions.Xcode.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.iOS.Extensions.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/AssetServerCacheV3" afterPath="$PROJECT_DIR$/../Altimit Client/Library/AssetServerCacheV3" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/Mono.Cecil.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.LinuxStandalone.Extensions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.OSXStandalone.Extensions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.WSA.Extensions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.iOS.Extensions.Common.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.iOS.Extensions.Xcode.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.iOS.Extensions.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.VR.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.VR.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Temp/UnityTempFile-009a2c21315a0462ea2760950b0437cd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Temp/UnityTempFile-081ba238cbf684e4084bb3aa6c4c78ba" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Temp/UnityTempFile-26022273830e744679cd953f5f261922" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Temp/UnityTempFile-2f793ba23dfd84f679a2c1c39885f249" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Temp/UnityTempFile-4726f35f99e4d4275b9d08c978980752" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Temp/UnityTempFile-5001c324d2d73459185809e1dd9ac100" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Temp/UnityTempFile-6e1567fd85db94a9399aa8255623fff9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Temp/UnityTempFile-8e0f359a29ea444ca83f6b96f31acd94" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Temp/UnityTempFile-ab61415bd9a63432485dfd8e698e58e5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Temp/UnityTempFile-c64a4d1815a5b40c880b23895a8adc00" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Temp/UnityTempFile-d8e54ce69f5ab43a4a46dd233940beb7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Temp/UnityTempFile-e611ab637f2464f23beb7afc82ed9c01" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Temp/__Backupscenes/0.backup" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java_AltmitServer/src/com/altimit_server/MapStore/MapManager.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/.vs/Altimit Client/v15/.suo" afterPath="$PROJECT_DIR$/../Altimit Client/.vs/Altimit Client/v15/.suo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Assets/Main.unity" afterPath="$PROJECT_DIR$/../Altimit Client/Assets/Main.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/EditorUserBuildSettings.asset" afterPath="$PROJECT_DIR$/../Altimit Client/Library/EditorUserBuildSettings.asset" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/InspectorExpandedItems.asset" afterPath="$PROJECT_DIR$/../Altimit Client/Library/InspectorExpandedItems.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/LastBuild.buildreport" afterPath="$PROJECT_DIR$/../Altimit Client/Library/LastBuild.buildreport" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/ProjectSettings.asset" afterPath="$PROJECT_DIR$/../Altimit Client/Library/ProjectSettings.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb" afterPath="$PROJECT_DIR$/../Altimit Client/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" afterPath="$PROJECT_DIR$/../Altimit Client/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb" afterPath="$PROJECT_DIR$/../Altimit Client/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/ScriptMapper" afterPath="$PROJECT_DIR$/../Altimit Client/Library/ScriptMapper" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/ShaderCache.db" afterPath="$PROJECT_DIR$/../Altimit Client/Library/ShaderCache.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/Mono.Cecil.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/Mono.Cecil.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/SyntaxTree.VisualStudio.Unity.Bridge.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/SyntaxTree.VisualStudio.Unity.Bridge.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/ScriptAssemblies/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/ScriptAssemblies/Assembly-CSharp.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterPath="$PROJECT_DIR$/../Altimit Client/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Advertisements.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Advertisements.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Analytics.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Analytics.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Graphs.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Graphs.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.HoloLens.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.HoloLens.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.LinuxStandalone.Extensions.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.LinuxStandalone.Extensions.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Networking.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Networking.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.OSXStandalone.Extensions.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.OSXStandalone.Extensions.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Purchasing.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.Purchasing.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.TestRunner.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.TestRunner.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.TreeEditor.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.TreeEditor.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.UI.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.UI.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.VR.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.VR.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.WSA.Extensions.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.WSA.Extensions.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.WindowsStandalone.Extensions.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.WindowsStandalone.Extensions.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.iOS.Extensions.Common.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.iOS.Extensions.Common.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.iOS.Extensions.Xcode.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.iOS.Extensions.Xcode.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.iOS.Extensions.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.iOS.Extensions.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.Networking.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.Networking.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.TestRunner.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.TestRunner.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.UI.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.UI.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/nunit.framework.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/nunit.framework.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/assetDatabase3" afterPath="$PROJECT_DIR$/../Altimit Client/Library/assetDatabase3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/expandedItems" afterPath="$PROJECT_DIR$/../Altimit Client/Library/expandedItems" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000002000000000000000" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000002000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000003000000000000000" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000003000000000000000" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000004000000000000000" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000004000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000004100000000000000" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000004100000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000005000000000000000" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000005000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000005100000000000000" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000005100000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000006000000000000000" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000006000000000000000" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000006100000000000000" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000006100000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/0b/0bfb2599080d5d24e84362b4ae314ae7" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/0b/0bfb2599080d5d24e84362b4ae314ae7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/0d/0d9d26e2162aa4d11ab075b34c029673" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/0d/0d9d26e2162aa4d11ab075b34c029673" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/10/1062212255550964e974f3ffb3cbaae3" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/10/1062212255550964e974f3ffb3cbaae3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000007000000000000000" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000007000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000007100000000000000" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000007100000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000008000000000000000" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000008000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000009000000000000000" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000009000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/0000000000000000a000000000000000" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/0000000000000000a000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/0000000000000000a100000000000000" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/0000000000000000a100000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/0000000000000000b000000000000000" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/0000000000000000b000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/0000000000000000c000000000000000" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/0000000000000000c000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00c3c865782347f41b6358d9fba14b48" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00c3c865782347f41b6358d9fba14b48" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/05/05ec5cf00ca181d45a42ba1870e148c3" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/05/05ec5cf00ca181d45a42ba1870e148c3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/0c/0cdb788e79be7594e8cc8e1f742d23b7" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/0c/0cdb788e79be7594e8cc8e1f742d23b7" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/0d/0d2f50a8e0bb841a5aaa90ae55db8849" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/0d/0d2f50a8e0bb841a5aaa90ae55db8849" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/0d/0d3bb855445e36e479c85976fc88383a" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/0d/0d3bb855445e36e479c85976fc88383a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/0f/0f57aeb1b8dce3342bea5c28ac17db24" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/0f/0f57aeb1b8dce3342bea5c28ac17db24" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/1c/1c52c953c83c2254a9fa72d50250f028" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/1c/1c52c953c83c2254a9fa72d50250f028" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/13/13508e40f504f0549974c002c6a811be" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/13/13508e40f504f0549974c002c6a811be" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/1c/1cb8ed3cbba15f0479fbae54e0a963df" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/1c/1cb8ed3cbba15f0479fbae54e0a963df" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/1c/1cac2e0bcc34e4b3cbb4bd85982eba83" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/1c/1cac2e0bcc34e4b3cbb4bd85982eba83" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/1c/1caf40fc8bebb6b43b2550c05ca791d6" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/1c/1caf40fc8bebb6b43b2550c05ca791d6" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/29/29486a9cd1773f44f80570b5bd896a1d" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/29/29486a9cd1773f44f80570b5bd896a1d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/2d/2dac79461900e0f4c93561031c2e6902" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/2d/2dac79461900e0f4c93561031c2e6902" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/30/307433eba81a469ab1e2084d52d1a5a2" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/30/307433eba81a469ab1e2084d52d1a5a2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/31/314f49b24dc9d5d40956a7b28c67b237" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/31/314f49b24dc9d5d40956a7b28c67b237" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/22/22bbf57ec543cee42a5aa0ec2dd9e457" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/22/22bbf57ec543cee42a5aa0ec2dd9e457" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/24/246cc59c7a84ea44f87f6b70acfe30c5" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/24/246cc59c7a84ea44f87f6b70acfe30c5" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/26/2682a692a2be7e14e901a738c7806da0" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/26/2682a692a2be7e14e901a738c7806da0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/29/29014cd42b6d273408e0ceefd336c0b3" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/29/29014cd42b6d273408e0ceefd336c0b3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/2a/2a91e8dd37cdd41efb4859b65aced7a2" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/2a/2a91e8dd37cdd41efb4859b65aced7a2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/2d/2d28591d25be5244bb8e6a1d1063f0e9" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/2d/2d28591d25be5244bb8e6a1d1063f0e9" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/32/32188fd89022c154c81befa2f0e00be0" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/32/32188fd89022c154c81befa2f0e00be0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/32/328cc881519068e4eb7db4bb907ad2d9" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/32/328cc881519068e4eb7db4bb907ad2d9" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/37/37e60a97f2c87ae41b6cdc1055d78cb9" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/37/37e60a97f2c87ae41b6cdc1055d78cb9" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/37/37fac21d1f093d344816942d1abce94e" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/37/37fac21d1f093d344816942d1abce94e" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/3a/3a7cedf246fca744f90cbdc9dbe41166" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/3a/3a7cedf246fca744f90cbdc9dbe41166" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/40/405b9b51bb344a128608d968297df79c" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/40/405b9b51bb344a128608d968297df79c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/41/4113173d5e95493ab8765d7b08371de4" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/41/4113173d5e95493ab8765d7b08371de4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/41/41b808ba7c2f15e47bef4912db87d7c5" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/41/41b808ba7c2f15e47bef4912db87d7c5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/41/41db8cbfecdbdb54ab2bac971c05547a" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/41/41db8cbfecdbdb54ab2bac971c05547a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/42/4277762b3c154fab9f2e968e868bbbd7" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/42/4277762b3c154fab9f2e968e868bbbd7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/43/438c5036def53d643a5c720213903c0f" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/43/438c5036def53d643a5c720213903c0f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/41/4185bc77c7194462ca3b1097ef4a5de0" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/41/4185bc77c7194462ca3b1097ef4a5de0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/42/42e7f46d0e5a84171a3909479c1646ba" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/42/42e7f46d0e5a84171a3909479c1646ba" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/49/492f54f4accf00440828ffcb9e4fcc19" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/49/492f54f4accf00440828ffcb9e4fcc19" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/4c/4c886b489d67a40449882445aee46a68" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/4c/4c886b489d67a40449882445aee46a68" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/51/517af1b5b81b93b43b9745d58f017562" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/51/517af1b5b81b93b43b9745d58f017562" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/51/51dd2e4c869794f75a0df7d54b210214" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/51/51dd2e4c869794f75a0df7d54b210214" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/52/52a206b72a8f4f749c28d8b18b42dd19" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/52/52a206b72a8f4f749c28d8b18b42dd19" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/52/521b611700410be45810047f0a74e899" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/52/521b611700410be45810047f0a74e899" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/53/53ea144e26c9547cfacafbddcb417b65" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/53/53ea144e26c9547cfacafbddcb417b65" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/5d/5d2f1a0944eff024ab396500807b91cd" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/5d/5d2f1a0944eff024ab396500807b91cd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/5e/5eebb5849c50a2c4ea24ded96e6f3aac" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/5e/5eebb5849c50a2c4ea24ded96e6f3aac" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/58/5853b98427f1c30499faffab5518df5b" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/58/5853b98427f1c30499faffab5518df5b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/58/58650e15a2607e44daa0f150e0061d89" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/58/58650e15a2607e44daa0f150e0061d89" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/5c/5c2d84226fbbaf94e9c1451f1c39b06a" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/5c/5c2d84226fbbaf94e9c1451f1c39b06a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/5d/5d746f846d7464366a2dd7a9b2c6f896" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/5d/5d746f846d7464366a2dd7a9b2c6f896" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/5e/5e04d5c6403ad1245af49f7b6a82ff23" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/5e/5e04d5c6403ad1245af49f7b6a82ff23" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/67/67e9dad5654047ebbe623cce9dbf7b38" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/67/67e9dad5654047ebbe623cce9dbf7b38" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/69/696c0e7b8c74e1442acbf15c2df9e72d" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/69/696c0e7b8c74e1442acbf15c2df9e72d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/6a/6abf4b4cbfd0454e850ffc1ec9140b58" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/6a/6abf4b4cbfd0454e850ffc1ec9140b58" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/6c/6c2f4b9bc2ae1c1419ea3cbb1ab62835" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/6c/6c2f4b9bc2ae1c1419ea3cbb1ab62835" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/6c/6cdf1e5c78d14720aaadccd4c792df96" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/6c/6cdf1e5c78d14720aaadccd4c792df96" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/6f/6fb3851da6a6f5948ab6892bee8ba920" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/6f/6fb3851da6a6f5948ab6892bee8ba920" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/70/7076a2a45ec52cc469dff98247300c0f" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/70/7076a2a45ec52cc469dff98247300c0f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/60/6045a93fb05b9c74884821030da2c46c" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/60/6045a93fb05b9c74884821030da2c46c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/64/643c971818f68d3439e84b5d8bdafe07" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/64/643c971818f68d3439e84b5d8bdafe07" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/66/6603469f22272804a82209911a453a64" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/66/6603469f22272804a82209911a453a64" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/69/69b69a5b0e0a85b4aa97a7edc40c37d1" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/69/69b69a5b0e0a85b4aa97a7edc40c37d1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/6a/6ac1ce5a5adfd9f46adbf5b6f752a47c" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/6a/6ac1ce5a5adfd9f46adbf5b6f752a47c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/70/70852dc981465ea48bb527b9e33a87fd" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/70/70852dc981465ea48bb527b9e33a87fd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/71/71398ce7fbc3a5b4fa50b50bd54317a7" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/71/71398ce7fbc3a5b4fa50b50bd54317a7" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/73/739bbd9f364b4268874f9fd86ab3beef" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/76/7668179ede524d6396c8b7d84461ea29" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/76/7668179ede524d6396c8b7d84461ea29" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/7d/7d3269566d48b8447bb48d2259e28f8b" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/7d/7d3269566d48b8447bb48d2259e28f8b" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/81/81c9795a96c094f4cbde4d65546aa9b2" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/81/81c9795a96c094f4cbde4d65546aa9b2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/83/8382b2bb260241859771b69b7f377a8d" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/83/8382b2bb260241859771b69b7f377a8d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/83/83c81407209f85e4c87c0cda8b32868e" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/83/83c81407209f85e4c87c0cda8b32868e" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/84/844f815391db42d49455cbf1a7bfc434" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/84/844f815391db42d49455cbf1a7bfc434" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/85/852e56802eb941638acbb491814497b0" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/85/852e56802eb941638acbb491814497b0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/85/8566902b50d5bfb4fb7f8b89f9cdbe8b" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/85/8566902b50d5bfb4fb7f8b89f9cdbe8b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/85/85bf3be603548374ca46f521a3aa7fda" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/85/85bf3be603548374ca46f521a3aa7fda" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/86/86f4de9468454445ac2f39e207fafa3a" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/86/86f4de9468454445ac2f39e207fafa3a" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/89/8912f13e18e67bc478684ec30d73bc64" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/89/8912f13e18e67bc478684ec30d73bc64" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/8c/8c32f58513a41ef4dab9cb7704c5fb92" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/8c/8c32f58513a41ef4dab9cb7704c5fb92" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/8c/8c5335f0882fe4d478883cc8c58ce906" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/8c/8c5335f0882fe4d478883cc8c58ce906" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/8e/8e0cd8ed44d4412cbe0642067abc9e44" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/8e/8e0cd8ed44d4412cbe0642067abc9e44" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/94/943e057eaae705e43b9e9b2e53d6adb0" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/94/943e057eaae705e43b9e9b2e53d6adb0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/8e/8e7066e382b0fc749b25dbb1a3004dfe" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/8e/8e7066e382b0fc749b25dbb1a3004dfe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/90/9078b7128e594410d9b89e5b24cffd01" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/90/9078b7128e594410d9b89e5b24cffd01" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/95/951d74f7d57bed84cb623c62436bd064" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/95/951d74f7d57bed84cb623c62436bd064" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/97/9703d53e47195aa4190acd11369ccd1b" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/97/9703d53e47195aa4190acd11369ccd1b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/97/971f44ba24a74294294daed00507d80e" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/97/971f44ba24a74294294daed00507d80e" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/97/97decbdab0634cdd991f8d23ddf0dead" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/a0/a0245c71eb710114392b7dcfe5484e1b" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/a0/a0245c71eb710114392b7dcfe5484e1b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/99/9961032f4f02c4f41997c3ea399d2f22" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/99/9961032f4f02c4f41997c3ea399d2f22" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/9a/9ab98b66288df7b4fa182075f2f12bd6" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/9a/9ab98b66288df7b4fa182075f2f12bd6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/9b/9b886447cba80f74e820adb3c9e70c76" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/9b/9b886447cba80f74e820adb3c9e70c76" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/9c/9c0578910bbe00d43919a92c7b9893fe" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/9c/9c0578910bbe00d43919a92c7b9893fe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/9c/9c4978ff6447f9040b84acc89b0bbdc8" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/9c/9c4978ff6447f9040b84acc89b0bbdc8" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/9d/9d6cd37ec3a90d347a6b8a0b0ca9a73a" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/9d/9d6cd37ec3a90d347a6b8a0b0ca9a73a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/a1/a1347817507220a4384f3ff6f7c24546" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/a1/a1347817507220a4384f3ff6f7c24546" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/a1/a1da353243062479a9b31c85074a796b" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/a1/a1da353243062479a9b31c85074a796b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/a3/a3d3ef1a5bbfb4e0a910fbbe5830b1f9" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/a3/a3d3ef1a5bbfb4e0a910fbbe5830b1f9" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/ae/aef224e1951a8274684081643c7fa672" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/ae/aef224e1951a8274684081643c7fa672" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b1/b1a5e04ae51004842aba06704a6c2903" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b1/b1a5e04ae51004842aba06704a6c2903" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b2/b235179bd2a63d1468dd430670338c55" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b2/b235179bd2a63d1468dd430670338c55" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/af/af82a5dcdad0f544c99fd1a84212021d" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/af/af82a5dcdad0f544c99fd1a84212021d" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b2/b27507c5d0efbbd47ac8c1de9a1a0a35" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b2/b27507c5d0efbbd47ac8c1de9a1a0a35" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b9/b92bcd59b29b08448a522149e8138a28" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b9/b92bcd59b29b08448a522149e8138a28" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/bb/bb141fc9a700c9c4ca7e6dadb8acf24b" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/bb/bb141fc9a700c9c4ca7e6dadb8acf24b" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/d0/d05d496cb4f43c14e80630addd23652e" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/d0/d05d496cb4f43c14e80630addd23652e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/d2/d2d7bc67dfb2b514087e9e15d4a52d44" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/d2/d2d7bc67dfb2b514087e9e15d4a52d44" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/d8/d89ea37480b6d75458aa38843e9688dc" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/d8/d89ea37480b6d75458aa38843e9688dc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b6/b6d885eeb2b277040a1eac29e1009dcb" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b6/b6d885eeb2b277040a1eac29e1009dcb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/bc/bc9b000e9b8028247bd816e159382646" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/bc/bc9b000e9b8028247bd816e159382646" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/c1/c1bbfafbde15c854681023b9e01e12dd" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/c1/c1bbfafbde15c854681023b9e01e12dd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/c5/c5cb22d331ef7d64796f917c6a455a32" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/c5/c5cb22d331ef7d64796f917c6a455a32" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/c6/c62b7d87755b447919138e67f8e22e0c" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/c6/c62b7d87755b447919138e67f8e22e0c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/c8/c8634e062924929664361c08745211fb" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/c8/c8634e062924929664361c08745211fb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/ca/cadd54e4832aeef4b9359f44cbe335cd" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/ca/cadd54e4832aeef4b9359f44cbe335cd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/cc/ccd8b7d4da670da469421b9420de7da8" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/cc/ccd8b7d4da670da469421b9420de7da8" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/ce/ce7a80d520cacc042b5fe14f373d8173" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/ce/ce7a80d520cacc042b5fe14f373d8173" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/d1/d1e2e7a54dcc8694ab1eca46d072f264" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/d1/d1e2e7a54dcc8694ab1eca46d072f264" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/d9/d91035c548f23744c9bfb107348ed1c0" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/d9/d91035c548f23744c9bfb107348ed1c0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/da/daa7e0829bc72c94babd728cc0466196" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/da/daa7e0829bc72c94babd728cc0466196" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/db/db7667203062c644ea1877077e30ebd6" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/db/db7667203062c644ea1877077e30ebd6" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/df/dffa50cfe77e0434bbfa71245b3dd529" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/df/dffa50cfe77e0434bbfa71245b3dd529" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/e0/e09f07f9be24b2d4180a74a671348b5b" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/e0/e09f07f9be24b2d4180a74a671348b5b" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/eb/eb0e763ded53048dd80e7b78c35ded56" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/eb/eb0e763ded53048dd80e7b78c35ded56" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f0/f03e10c73f30b4ab4aa8ea8f1cc16d36" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f0/f03e10c73f30b4ab4aa8ea8f1cc16d36" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f2/f2bed5dc5afacff44a00de8daae9703b" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f2/f2bed5dc5afacff44a00de8daae9703b" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f4/f48df919adea4fa095a7407e773e5aa4" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f4/f48df919adea4fa095a7407e773e5aa4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/dd/dd7f896274c34174795de4287518c2f9" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/dd/dd7f896274c34174795de4287518c2f9" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/de/de2ab2b9ac93bb544b9552e49030371b" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/de/de2ab2b9ac93bb544b9552e49030371b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/e0/e004fefca5c7ba44d9c5ffd46fdee2ed" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/e0/e004fefca5c7ba44d9c5ffd46fdee2ed" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/e1/e1007cd261c84053beb0c3537782908d" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/e1/e1007cd261c84053beb0c3537782908d" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f7/f70555f144d8491a825f0804e09c671c" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f7/f70555f144d8491a825f0804e09c671c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f7/f76806479d916a64aa03f8e3eba7912f" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f7/f76806479d916a64aa03f8e3eba7912f" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f9/f93df448921b46c45999c77f43856ba2" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/f9/f93df448921b46c45999c77f43856ba2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/ff/ffeb65b78d531ba428cdffd39af31a44" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/ff/ffeb65b78d531ba428cdffd39af31a44" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/../Altimit Client/ProjectSettings/ProjectSettings.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Temp/UnityLockfile" afterPath="$PROJECT_DIR$/../Altimit Client/Temp/UnityLockfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_AltmitServer/out/production/Java_AltmitServer/com/altimit_server/AltimitUnity.class" afterPath="$PROJECT_DIR$/../Java_AltmitServer/out/production/Java_AltmitServer/com/altimit_server/AltimitUnity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_AltmitServer/out/production/Java_AltmitServer/com/altimit_server/ControlPanel/AltimitRest$1.class" afterPath="$PROJECT_DIR$/../Java_AltmitServer/out/production/Java_AltmitServer/com/altimit_server/ControlPanel/AltimitRest$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_AltmitServer/out/production/Java_AltmitServer/com/altimit_server/ControlPanel/AltimitRest.class" afterPath="$PROJECT_DIR$/../Java_AltmitServer/out/production/Java_AltmitServer/com/altimit_server/ControlPanel/AltimitRest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_AltmitServer/out/production/Java_AltmitServer/com/altimit_server/Rooms.class" afterPath="$PROJECT_DIR$/../Java_AltmitServer/out/production/Java_AltmitServer/com/altimit_server/Rooms.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_AltmitServer/out/production/Java_AltmitServer/com/altimit_server/Users.class" afterPath="$PROJECT_DIR$/../Java_AltmitServer/out/production/Java_AltmitServer/com/altimit_server/Users.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_AltmitServer/out/production/Java_AltmitServer/com/altimit_server/main$Handler.class" afterPath="$PROJECT_DIR$/../Java_AltmitServer/out/production/Java_AltmitServer/com/altimit_server/main$Handler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_AltmitServer/out/production/Java_AltmitServer/com/altimit_server/main.class" afterPath="$PROJECT_DIR$/../Java_AltmitServer/out/production/Java_AltmitServer/com/altimit_server/main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_AltmitServer/out/production/Java_AltmitServer/com/altimit_server/types/UnityObject.class" afterPath="$PROJECT_DIR$/../Java_AltmitServer/out/production/Java_AltmitServer/com/altimit_server/types/UnityObject.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Altimit Client.Editor.Plugins.csproj" afterPath="$PROJECT_DIR$/../Altimit Client/Altimit Client.Editor.Plugins.csproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Altimit Client.Editor.csproj" afterPath="$PROJECT_DIR$/../Altimit Client/Altimit Client.Editor.csproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Altimit Client.Plugins.csproj" afterPath="$PROJECT_DIR$/../Altimit Client/Altimit Client.Plugins.csproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Altimit Client.csproj" afterPath="$PROJECT_DIR$/../Altimit Client/Altimit Client.csproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Altimit Client.sln" afterPath="$PROJECT_DIR$/../Altimit Client/Altimit Client.sln" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs" afterPath="$PROJECT_DIR$/../Altimit Client/Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Assets/Standard Assets/Utility/PlatformSpecificContent.cs" afterPath="$PROJECT_DIR$/../Altimit Client/Assets/Standard Assets/Utility/PlatformSpecificContent.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Assets/Altimit Network/AltimitConverter.cs" afterPath="$PROJECT_DIR$/../Altimit Client/Assets/Altimit Network/AltimitConverter.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Assets/Altimit Network/AltimitRoom.cs" afterPath="$PROJECT_DIR$/../Altimit Client/Assets/Altimit Network/AltimitRoom.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Assets/Altimit Network/AltimitView.cs" afterPath="$PROJECT_DIR$/../Altimit Client/Assets/Altimit Network/AltimitView.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Assets/Altimit Network/AltimitViewHandler.cs" afterPath="$PROJECT_DIR$/../Altimit Client/Assets/Altimit Network/AltimitViewHandler.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Assets/Game Assets/scripts/ShowUsername.cs" afterPath="$PROJECT_DIR$/../Altimit Client/Assets/Game Assets/scripts/ShowUsername.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Client_Data/output_log.txt" afterPath="$PROJECT_DIR$/../Altimit Client/Client_Data/output_log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/CurrentLayout.dwlt" afterPath="$PROJECT_DIR$/../Altimit Client/Library/CurrentLayout.dwlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/EditorInstance.json" afterPath="$PROJECT_DIR$/../Altimit Client/Library/EditorInstance.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/ScriptAssemblies/BuiltinAssemblies.stamp" afterPath="$PROJECT_DIR$/../Altimit Client/Library/ScriptAssemblies/BuiltinAssemblies.stamp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.xml" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEditor.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.Analytics.xml" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.Analytics.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.Networking.xml" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.Networking.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.TestRunner.xml" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.TestRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.UI.xml" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.UI.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.xml" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/UnityEngine.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/nunit.framework.xml" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/nunit.framework.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/version.txt" afterPath="$PROJECT_DIR$/../Altimit Client/Library/UnityAssemblies/version.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterPath="$PROJECT_DIR$/../Altimit Client/Library/shadercompiler-UnityShaderCompiler.exe0.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterPath="$PROJECT_DIR$/../Altimit Client/Library/shadercompiler-UnityShaderCompiler.exe1.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterPath="$PROJECT_DIR$/../Altimit Client/Library/shadercompiler-UnityShaderCompiler.exe2.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/shadercompiler-UnityShaderCompiler.exe3.log" afterPath="$PROJECT_DIR$/../Altimit Client/Library/shadercompiler-UnityShaderCompiler.exe3.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/shadercompiler-UnityShaderCompiler.exe4.log" afterPath="$PROJECT_DIR$/../Altimit Client/Library/shadercompiler-UnityShaderCompiler.exe4.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/shadercompiler-UnityShaderCompiler.exe5.log" afterPath="$PROJECT_DIR$/../Altimit Client/Library/shadercompiler-UnityShaderCompiler.exe5.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/shadercompiler-UnityShaderCompiler.exe6.log" afterPath="$PROJECT_DIR$/../Altimit Client/Library/shadercompiler-UnityShaderCompiler.exe6.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/shadercompiler-UnityShaderCompiler.exe7.log" afterPath="$PROJECT_DIR$/../Altimit Client/Library/shadercompiler-UnityShaderCompiler.exe7.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/ProjectSettings/ProjectVersion.txt" afterPath="$PROJECT_DIR$/../Altimit Client/ProjectSettings/ProjectVersion.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_AltmitServer/.idea/libraries/com_google_code_gson_gson_2_7.xml" afterPath="$PROJECT_DIR$/../Java_AltmitServer/.idea/libraries/com_google_code_gson_gson_2_7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_AltmitServer/.idea/libraries/com_sparkjava_spark_core_2_5.xml" afterPath="$PROJECT_DIR$/../Java_AltmitServer/.idea/libraries/com_sparkjava_spark_core_2_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_AltmitServer/.idea/libraries/org_reflections_reflections_0_9_10.xml" afterPath="$PROJECT_DIR$/../Java_AltmitServer/.idea/libraries/org_reflections_reflections_0_9_10.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_AltmitServer/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../Java_AltmitServer/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_AltmitServer/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Java_AltmitServer/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_AltmitServer/out/production/Java_AltmitServer/com/altimit_server/config.properties" afterPath="$PROJECT_DIR$/../Java_AltmitServer/out/production/Java_AltmitServer/com/altimit_server/config.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_AltmitServer/out/production/Java_AltmitServer/config.properties" afterPath="$PROJECT_DIR$/../Java_AltmitServer/out/production/Java_AltmitServer/config.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_AltmitServer/src/com/altimit_server/AltimitUnity.java" afterPath="$PROJECT_DIR$/../Java_AltmitServer/src/com/altimit_server/AltimitUnity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_AltmitServer/src/com/altimit_server/ControlPanel/AltimitRest.java" afterPath="$PROJECT_DIR$/../Java_AltmitServer/src/com/altimit_server/ControlPanel/AltimitRest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_AltmitServer/src/com/altimit_server/Rooms.java" afterPath="$PROJECT_DIR$/../Java_AltmitServer/src/com/altimit_server/Rooms.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_AltmitServer/src/com/altimit_server/config.properties" afterPath="$PROJECT_DIR$/../Java_AltmitServer/src/com/altimit_server/config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_AltmitServer/src/com/altimit_server/main.java" afterPath="$PROJECT_DIR$/../Java_AltmitServer/src/com/altimit_server/main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_AltmitServer/src/com/altimit_server/types/UnityObject.java" afterPath="$PROJECT_DIR$/../Java_AltmitServer/src/com/altimit_server/types/UnityObject.java" />
     </list>
     <ignored path="Altimit_Hazelcast.iws" />
@@ -193,8 +276,8 @@
       <file leaf-file-name="Room.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/altimit/hazelcast/Room.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="68" column="37" lean-forward="false" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
+            <state relative-caret-position="1258">
+              <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -272,10 +355,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="2576" />
-    <option name="height" value="1056" />
+    <option name="x" value="-1088" />
+    <option name="y" value="-611" />
+    <option name="width" value="1096" />
+    <option name="height" value="1896" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -293,7 +376,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -374,6 +456,7 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -697,7 +780,8 @@
     <option name="totallyTimeSpent" value="150371000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
+    <frame x="-1088" y="-611" width="1096" height="1896" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -708,13 +792,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47357294" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23784356" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23740202" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29444444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1058,6 +1142,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/altimit/hazelcast/AltimitObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/altimit/hazelcast/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/altimit/hazelcast/UnityObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/altimit/hazelcast/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1082,26 +1182,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/altimit/hazelcast/UnityObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/altimit/hazelcast/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/altimit/hazelcast/Room.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="68" column="37" lean-forward="false" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
+        <state relative-caret-position="1258">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -513,8 +513,7 @@ namespace Altimit{
 		// Converts a byte array to a Bool
 		//</summary>
 		private static bool convertToBool(byte array){
-
-			return (Encoding.UTF8.GetString (new byte[] { array }) == "1");
+			return array != 0;
 		}
 
 		//<summary>

@@ -19,7 +19,7 @@ class PostMan {
      * @param methodName The name of the method to be invoked on the client.
      * @param args The parameters that will be passed to the method invoked on the client.
      */
-    static void SendPost(UUID clientUUID, String methodName, Object... args){
+    /*static void SendPost(UUID clientUUID, String methodName, Object... args){
         if(main.localClientMap.containsKey(clientUUID)) {
             byte[] postToSend = AltimitConverter.SendConversion(methodName, args);
             try {
@@ -28,24 +28,24 @@ class PostMan {
                 badUUIDs.add(clientUUID);
             }
         }
-    }
+    }*/
 
     /**
      * This class is used to send a message to every connected client.
      * @param methodName The name of the method to be invoked on the client.
      * @param args The parameters that will be passed to the method invoked on the client.
      */
-    static void SendPost(String methodName, Object... args){
+    /*static void SendPost(String methodName, Object... args){
         UUID[] temp = {};
         SendPost(methodName, temp, args);
-    }
+    }*/
 
     /**
      * This class is used to send a message to every connected client.
      * @param methodName The name of the method to be invoked on the client.
      * @param args The parameters that will be passed to the method invoked on the client.
      */
-    static void SendPost(String methodName, UUID[] ignoreList, Object... args){
+    /*static void SendPost(String methodName, UUID[] ignoreList, Object... args){
         if(main.localClientMap.size() > 0) {
             byte[] postToSend = AltimitConverter.SendConversion(methodName, args);
 
@@ -64,7 +64,7 @@ class PostMan {
                 }
             }
         }
-    }
+    }*/
 
     /**
      * This class is used to message all clients within a room.
@@ -72,10 +72,10 @@ class PostMan {
      * @param methodName The name of the method to be invoked on the client.
      * @param args The parameters that will be passed to the method invoked on the client.
      */
-    static void SendPost(String roomName, String methodName, Object... args) {
+    /*static void SendPost(String roomName, String methodName, Object... args) {
         UUID[] temp = {};
         SendPost(roomName, temp, methodName, args);
-    }
+    }*/
 
     /**
      * This class is used to message all clients within a room.
@@ -84,7 +84,7 @@ class PostMan {
      * @param methodName The name of the method to be invoked on the client.
      * @param args The parameters that will be passed to the method invoked on the client.
      */
-    static void SendPost(String roomName, UUID[] ignoreList, String methodName, Object... args){
+    /*static void SendPost(String roomName, UUID[] ignoreList, String methodName, Object... args){
         byte[] postToSend = AltimitConverter.SendConversion(methodName, args);
 
         UUID currentUUID;
@@ -103,5 +103,5 @@ class PostMan {
                 }
             }
         }
-    }
+    }*/
 }

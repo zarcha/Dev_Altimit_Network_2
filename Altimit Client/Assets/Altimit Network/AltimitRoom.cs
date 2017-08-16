@@ -86,7 +86,6 @@ namespace Altimit
         [AltimitRPC]
 		private void SetUserCount(int userCount)
         {
-            Debug.Log("got stuff");
             usersInRoom = userCount;
         }
     }

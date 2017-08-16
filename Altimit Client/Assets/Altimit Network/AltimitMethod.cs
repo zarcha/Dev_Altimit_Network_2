@@ -25,6 +25,14 @@ namespace Altimit {
             return instance;
         }
 
+        public void AddComandmethod(MethodBase method)
+        {
+            if (method != null)
+            {
+                altimitMethods.Add(method);
+            }
+        }
+
 		//<summary>
 		// Get a list of all methods with [AltimitRPC]
 		//</summary>

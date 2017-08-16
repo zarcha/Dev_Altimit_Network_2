@@ -10,7 +10,7 @@ public class Rooms {
     /**
      * The user map, this contains the user data
      */
-    public static Map<String, Room> roomMap;
+    public static Map<String, Room> roomMap = new HashMap<>();
 
     /**
      * Joins a user to a room or creates one if the room deosnt exist.
@@ -18,7 +18,6 @@ public class Rooms {
      * @param maxUsers The maximum amount of users that can be within the room.
      * @param clientUUID The UUID of the client attempting to join a room.
      */
-    @AltimitCmd
     public static void JoinRoom(String roomName, int maxUsers, UUID clientUUID){
         Room tempRoom;
         User tempUser = Users.GetUser(clientUUID);
@@ -32,14 +31,14 @@ public class Rooms {
             roomMap.put(roomName, tempRoom);
             System.out.println("Room " + roomName + " has been created. " + roomMap.size() + " room exist.");
             Users.SetRoomName(roomName, clientUUID);
-            PostMan.SendPost(clientUUID, "JoinedRoom", roomName, true);
+            /*PostMan.SendPost(clientUUID, "JoinedRoom", roomName, true);*/
         } else {
             tempRoom = roomMap.get(roomName);
             if (tempRoom.max_users >= (tempRoom.users.size() + 1) || tempRoom.max_users == -1) {
                 tempRoom.users.put(tempUser.uuid, tempUser);
                 roomMap.put(roomName, tempRoom);
                 Users.SetRoomName(roomName, clientUUID);
-                PostMan.SendPost(clientUUID, "JoinedRoom", roomName, false);
+                /*PostMan.SendPost(clientUUID, "JoinedRoom", roomName, false);*/
 
                 HashMap<Integer, UnityObject> roomUnityObjects = tempRoom.getUnityObjects();
 
@@ -47,7 +46,9 @@ public class Rooms {
                 while (it.hasNext()) {
                     Map.Entry pair = (Map.Entry)it.next();
                     UnityObject object = (UnityObject)pair.getValue();
-                    PostMan.SendPost(clientUUID, "Instantiate", object.prefabName, object.position, object.rotation, object.viewId, object.clientId, Users.GetUsername(object.ownerUUID));
+                    if(!object.isSceneObject) {
+                        /*PostMan.SendPost(clientUUID, "Instantiate", object.prefabName, object.position, object.rotation, object.viewId, object.clientId, Users.GetUsername(object.ownerUUID));*/
+                    }
                 }
             }
         }
@@ -60,7 +61,6 @@ public class Rooms {
      * If the owner leaves a room then a new owenr is assigned to the room.
      * @param clientUUID The client UUID of the user that will leave the room.
      */
-    @AltimitCmd
     static void LeaveRoom(UUID clientUUID){
         Room tempRoom;
         User tempUser = Users.GetUser(clientUUID);
@@ -75,6 +75,7 @@ public class Rooms {
                         Map.Entry<UUID, User> userEntry =  tempRoom.users.entrySet().iterator().next();
                         tempRoom.ownerId = userEntry.getValue().id;
                         roomMap.put(tempUser.roomName, tempRoom);
+                        /*PostMan.SendPost(clientUUID, "SetOwnerStatus", false);*/
                         System.out.println("Room " + tempUser.roomName + " has a new owner.");
                         SendUserCount(tempUser.roomName);
                     }else{
@@ -98,7 +99,7 @@ public class Rooms {
     private static void SendUserCount (String roomName){
 
         if (roomMap.containsKey(roomName)) {
-            PostMan.SendPost(roomName, "SetUserCount", roomMap.get(roomName).users.size());
+            /*PostMan.SendPost(roomName, "SetUserCount", roomMap.get(roomName).users.size());*/
         }
     }
 
@@ -134,12 +135,17 @@ public class Rooms {
             tempRoom.AddNetworkObject(netObject.viewId, netObject);
             roomMap.put(roomName, tempRoom);
 
-            PostMan.SendPost(roomName, "Instantiate", netObject.prefabName, netObject.position, netObject.rotation, netObject.viewId, netObject.clientId,  Users.GetUsername(clientUUID));
+            /*PostMan.SendPost(roomName, "Instantiate", netObject.prefabName, netObject.position, netObject.rotation, netObject.viewId, netObject.clientId,  Users.GetUsername(clientUUID));*/
         }
     }
 
     static void AddSceneUnityObject(String roomName, UnityObject netObject){
+        if(roomName.contains(roomName)){
+            Room tempRoom = roomMap.get(roomName);
 
+            tempRoom.AddNetworkObject(netObject.viewId, netObject);
+            roomMap.put(roomName, tempRoom);
+        }
     }
 
     static void  UpdateRoomUnityObject(String roomName, int viewId, Vector3 position, long timeStamp, UUID clientUUID){
@@ -151,7 +157,7 @@ public class Rooms {
             roomMap.put(roomName, tempRoom);
 
             UUID[] temp = {clientUUID};
-            PostMan.SendPost(roomName, temp, "UpdateViewObject", viewId, position, timeStamp);
+            /*PostMan.SendPost(roomName, temp, "UpdateViewObject", viewId, position, timeStamp);*/
         }
     }
 
@@ -163,7 +169,7 @@ public class Rooms {
             roomMap.put(roomName, tempRoom);
 
             UUID[] temp = {clientUUID};
-            PostMan.SendPost(roomName, temp, "UpdateViewObject", viewId, rotation, timeStamp);
+            /*PostMan.SendPost(roomName, temp, "UpdateViewObject", viewId, rotation, timeStamp);*/
         }
     }
 
@@ -175,7 +181,7 @@ public class Rooms {
             roomMap.put(roomName, tempRoom);
 
             UUID[] temp = {clientUUID};
-            PostMan.SendPost(roomName, temp, "UpdateViewObject", viewId, position, rotation, timeStamp);
+            /*PostMan.SendPost(roomName, temp, "UpdateViewObject", viewId, position, rotation, timeStamp);*/
         }
     }
 }

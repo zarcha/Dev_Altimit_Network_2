@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
+using System.Threading;
 
 namespace Altimit
 {
@@ -8,25 +9,60 @@ namespace Altimit
         public static int MAX_VIEWS = 1000;
         public static Dictionary<int, GameObject> NetworkObjects = new Dictionary<int, GameObject>();
 
+        private static List<int> pendingSceneObjects = new List<int>();
 
         public static void RegisterNetworkObject(GameObject netObject, int viewId)
         {
-            int viewID;
-            if (!netObject.GetComponent<AltimitView>().sceneView)
+          
+            if (netObject.GetComponent<AltimitView>().sceneView)
             {
-                viewID = viewId;
-
-                if (AltimitRoom.RoomOwner)
+                if(AltimitRoom.RoomName == null)
                 {
+                    if(pendingSceneObjects.ToArray().Length <= 0)
+                    {
+                        new Thread(() =>
+                        {
+                            ManageSceneObjectsWhenInARoom();
+                        }).Start();
+                    }
 
+                    pendingSceneObjects.Add(viewId);
+                    Debug.Log("added a scene object");
+                }
+                else
+                {
+                    if (AltimitRoom.RoomOwner)
+                    {
+                        AltimitNetwork.Send("RegisterSceneObject", viewId);
+                    }
                 }
             }
-            else
+            else if(viewId <= -1)
             {
-                viewID = AltimitPlayer.ID * AltimitViewHandler.MAX_VIEWS + viewId;
+                viewId = AltimitPlayer.ID * AltimitViewHandler.MAX_VIEWS + viewId;
             }
 
-            NetworkObjects.Add(viewID, netObject);
+            NetworkObjects.Add(viewId, netObject);
+        }
+
+        private static void ManageSceneObjectsWhenInARoom()
+        {
+            for(;;)
+            {
+                if (AltimitRoom.RoomName != null)
+                {
+                    if (AltimitRoom.RoomOwner)
+                    {
+                        Debug.Log("Clearing view list");
+                        foreach (int view in pendingSceneObjects)
+                        {
+                            AltimitNetwork.Send("RegisterSceneObject", view);
+                        }
+                    }
+
+                    break;
+                }
+            }
         }
 
         [AltimitRPC]

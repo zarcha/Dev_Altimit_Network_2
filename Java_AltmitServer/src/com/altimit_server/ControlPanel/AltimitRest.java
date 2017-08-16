@@ -44,6 +44,13 @@ public class AltimitRest {
         });
 
         /**
+         * returns basic server information. This is mainly used for the AltimitDirector.
+         */
+        get("/serverInfo", (reg, res) -> {
+            return main.isRunning();
+        });
+
+        /**
          * Returns a list of users and their information in a json form.
          */
         get("/userList", "application/json", (req, res) -> {
