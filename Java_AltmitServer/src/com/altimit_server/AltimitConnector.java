@@ -8,40 +8,25 @@ import java.io.IOException;
 import java.util.UUID;
 
 public class AltimitConnector extends Thread{
-    private ServerSocket socket;
-    private static AltimitConnector instance;
-    private int port;
-    private AltimitNetwork altimitNetwork = AltimitNetwork.getInstance();
+    private static ServerSocket socket;
+    private static int port;
 
-    static synchronized AltimitConnector getInstance(){
-
-        if (instance== null) {
-            instance = new AltimitConnector();
-        }
-        return instance;
-    }
-
-    boolean isRunning(){
+    static boolean isRunning(){
         return socket.isClosed();
     }
 
-    public void StopAltimitServer(){
-        for(UUID clientUUID : altimitNetwork.localClientMap.keySet()){
-            altimitNetwork.DisconnectUser(clientUUID, true);
-        }
-
+    static void StopServer(){
         try {
             socket.close();
             System.out.println("Altimit Server has been stopped...");
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
-
     }
 
 
-    synchronized void start(int port) {
-        this.port = port;
+    static void Start(int ServerPort) {
+        port = ServerPort;
         try {
             System.out.printf("Starting server on port {}", port);
             socket = new ServerSocket(port);
@@ -80,12 +65,12 @@ public class AltimitConnector extends Thread{
     private void AddClientToAltimitNetwork(Socket newConnection){
         UUID newUUID = UUID.randomUUID();
 
-        if(altimitNetwork.localClientMap.containsKey(newUUID)){
+        if(AltimitNetwork.localClientMap.containsKey(newUUID)){
             System.out.println("UUID has already been registered! Dropping client!...");
             AddClientToAltimitNetwork(newConnection);
         } else {
             ClientInfo clientTemp = new ClientInfo(newConnection);
-            altimitNetwork.localClientMap.put(newUUID, clientTemp);
+            AltimitNetwork.localClientMap.put(newUUID, clientTemp);
 
             Users.Add(newUUID);
 

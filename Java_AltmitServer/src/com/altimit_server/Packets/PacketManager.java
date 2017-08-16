@@ -38,6 +38,10 @@ public class PacketManager {
             }
         } catch (IOException e) {
             e.printStackTrace();
-        } catch ()
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        }
     }
 }

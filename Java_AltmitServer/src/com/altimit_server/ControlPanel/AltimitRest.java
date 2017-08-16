@@ -5,9 +5,7 @@ import static spark.Spark.*;
 import java.util.HashMap;
 import java.util.UUID;
 
-import com.altimit_server.Rooms;
-import com.altimit_server.Users;
-import com.altimit_server.main;
+import com.altimit_server.*;
 import com.altimit_server.util.BodyParse;
 import com.altimit_server.util.JsonTransformer;
 import spark.*;
@@ -16,11 +14,10 @@ import spark.*;
  * Rest service used for providing basic information and actions for the control panel. These can be used for websites too (Server status mainly).
  */
 public class AltimitRest {
-
     /**
      * Starts the Spark Rest server and adds the GET & POST endpoints
      */
-    public static void StartAll(){
+    public void StartAll(){
         System.out.println("Running Rest Services...");
 
         AltimitRest.apply();
@@ -40,14 +37,14 @@ public class AltimitRest {
          * Use this to provide something else if there is is a reason to say offline if online.
          */
         get("/serverStatus", (reg, res) -> {
-           return main.isRunning();
+           return AltimitNetwork.isRunning();
         });
 
         /**
          * returns basic server information. This is mainly used for the AltimitDirector.
          */
         get("/serverInfo", (reg, res) -> {
-            return main.isRunning();
+            return AltimitNetwork.isRunning();
         });
 
         /**
@@ -68,17 +65,17 @@ public class AltimitRest {
          * Post command that takes a UUID (in string form) used to disconnect the client.
          */
         post("/kickPlayer", (request, response) -> {
-            main.DisconnectUser(UUID.fromString(BodyParse.parseBody(request).get("playerUUID")), true);
+            AltimitNetwork.DisconnectUser(UUID.fromString(BodyParse.parseBody(request).get("playerUUID")), true);
             return "Success";
         });
 
         post("/stopServer", (request, response) -> {
-            main.StopAltimitServer();
+
             return "Success";
         });
 
         post("/startServer", (request, response) -> {
-            main.StartAltimitServer();
+
             return "Success";
         });
     }
@@ -101,7 +98,7 @@ public class AltimitRest {
     /**
      * Fixes Cross-Site scripting issues for the CPanel
      */
-    public final static void apply() {
+    public static final void apply() {
         Filter filter = new Filter() {
             @Override
             public void handle(Request request, Response response) throws Exception {

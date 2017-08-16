@@ -41,10 +41,10 @@ public class AltimitUnity {
         switch (_type){
             //ALL
             case 0:
-                PostMan.SendPost(clientUUID, "AltimitRPCInvoker", Arrays.copyOfRange(_parameters, 1, (_parameters.length - 1)));
+             /*   PostMan.SendPost(clientUUID, "AltimitRPCInvoker", Arrays.copyOfRange(_parameters, 1, (_parameters.length - 1)));*/
             //OTHERS
             case 1:
-                PostMan.SendPost(roomName, ignoreList, "AltimitRPCInvoker", Arrays.copyOfRange(_parameters, 1, (_parameters.length - 1)));
+                /*PostMan.SendPost(roomName, ignoreList, "AltimitRPCInvoker", Arrays.copyOfRange(_parameters, 1, (_parameters.length - 1)));*/
             //OTHERS_NO_SERVER
             case 2:
                 /*AltimitMethod.CallAltimitMethod((String)_parameters[2], Arrays.copyOfRange(_parameters, 3, _parameters.length + 1));*/

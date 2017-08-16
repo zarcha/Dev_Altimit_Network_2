@@ -17,56 +17,58 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 public class AltimitNetwork extends Thread {
 
     /** This is the map that links UUID's of each client to their socket. **/
-    Map<UUID, ClientInfo> localClientMap = new HashMap<>();
+    static Map<UUID, ClientInfo> localClientMap = new HashMap<>();
 
-    private PropertiesManager propertiesManager = new PropertiesManager(main.class);
-    private static AltimitNetwork instance;
+    private  PropertiesManager propertiesManager = new PropertiesManager(main.class);
+    private  static AltimitNetwork instance;
+
+    private AltimitRest altimitRest = new AltimitRest();
+    private AltimitHeartBeat altimitHeartBeat = new AltimitHeartBeat();
 
     private Map<Socket, BufferData> bufferMap;
     private ReadWriteLock clientLock = new ReentrantReadWriteLock();
 
-    static synchronized AltimitNetwork getInstance() {
-        if (instance == null) {
-            instance = new AltimitNetwork();
-        }
-        return instance;
-    }
-
     /**
      * Starts the connection to hazelcast, compiles AltimitCmd.
      */
-    private void StartServer() throws Exception{
+    public void StartServer() throws Exception{
         //lets just do something fancy to show its ready
         System.out.println("==================================== \n" +
                 "========    ALTIMIT SERVER  ======== \n" +
                 "==================================== \n");
 
+        StartAltimitServer();
 
         if(propertiesManager.useRestService()) {
             //Start Rest Server
-            AltimitRest.StartAll();
+            altimitRest.StartAll();
             AltimitHttpServer.StartHttpServer(propertiesManager);
         }
 
         //Compile a list of the methods that will be used when compiling
-        AltimitHeartBeat.StartChecks();
-
-
-        StartAltimitServer();
+        altimitHeartBeat.StartChecks();
     }
 
-    void StartAltimitServer(){
+    public void StopAltimitServer(){
+        for(UUID clientUUID : localClientMap.keySet()){
+            DisconnectUser(clientUUID, true);
+        }
+
+        AltimitConnector.StopServer();
+    }
+
+    public void StartAltimitServer(){
         //Let the admin know that we can accept users now
         System.out.println("Ready for clients...");
 
-        AltimitConnector.getInstance().start(propertiesManager.getServerPort());
+        AltimitConnector.Start(propertiesManager.getServerPort());
         localClientMap = new HashMap<>();
         super.run();
     }
 
     @Override
     public void run(){
-        while(AltimitConnector.getInstance().isRunning()){
+        while(AltimitConnector.isRunning()){
             try{
                 currentThread().sleep(1000);
                 receiverData();
@@ -135,11 +137,11 @@ public class AltimitNetwork extends Thread {
      * @param clientUUID The UUID of the client to disconnect. This will be used to find all data related to the client and remove it.
      * @param server This is used to tell if the disconnect is because of the server or because the client disconnected.
      */
-    void DisconnectUser(UUID clientUUID, Boolean server){
+    public static void DisconnectUser(UUID clientUUID, Boolean server){
         ClientInfo clientInfo = localClientMap.get(clientUUID);
 
         if(server){
-            PostMan.SendPost(clientUUID, "Disconnect");
+            /*PostMan.SendPost(clientUUID, "Disconnect");*/
         }
 
         try {
@@ -152,5 +154,9 @@ public class AltimitNetwork extends Thread {
         Users.Remove(clientUUID);
 
         System.out.println("User " + clientUUID.toString() + " has been disconnected.");
+    }
+
+    public static boolean isRunning(){
+        return AltimitConnector.isRunning();
     }
 }

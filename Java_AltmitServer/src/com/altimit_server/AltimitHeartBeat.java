@@ -10,23 +10,23 @@ class AltimitHeartBeat {
     /**
      * List of client UUID's that will be disconnected.
      */
-    static List<UUID> badUUIDs = new ArrayList<>();
+    List<UUID> badUUIDs = new ArrayList<>();
 
     /**
      * Timer to send a message to all clients and then disconnect the bad ones.
      */
-    static void StartChecks() {
+    void StartChecks() {
         Timer t = new Timer();
         t.schedule(new TimerTask() {
             @Override
             public void run() {
-                if(main.localClientMap.size() > 0) {
-                    PostMan.SendPost("HeartBeat");
+                if(AltimitNetwork.localClientMap.size() > 0) {
+                    /*PostMan.SendPost("HeartBeat");*/
                 }
 
                 if(badUUIDs.size() > 0){
                     for (UUID badUUID : badUUIDs) {
-                        main.DisconnectUser(badUUID, false);
+                        AltimitNetwork.DisconnectUser(badUUID, false);
                     }
 
                     badUUIDs.clear();
