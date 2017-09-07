@@ -15,7 +15,6 @@ public class AltimitUnity {
 
     public static void UpdateUnityObject(Vector3 position, Quaternion rotation, long timeStamp, Integer viewId, UUID clientUUID){
         Rooms.UpdateRoomUnityObject(Users.GetRoomName(clientUUID), viewId, position, rotation, timeStamp, clientUUID);
-
     }
 
     public static void UpdateUnityObject(Vector3 position, long timeStamp, Integer viewId, UUID clientUUID){

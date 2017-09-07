@@ -20,7 +20,8 @@ public class AltimitNetwork extends Thread {
     static Map<UUID, ClientInfo> localClientMap = new HashMap<>();
 
     private  PropertiesManager propertiesManager = new PropertiesManager(main.class);
-    private  static AltimitNetwork instance;
+    private static AltimitNetwork instance;
+    private static AltimitConnector altimitConnector;
 
     private AltimitRest altimitRest = new AltimitRest();
     private AltimitHeartBeat altimitHeartBeat = new AltimitHeartBeat();
@@ -28,15 +29,23 @@ public class AltimitNetwork extends Thread {
     private Map<Socket, BufferData> bufferMap;
     private ReadWriteLock clientLock = new ReentrantReadWriteLock();
 
+    public static synchronized AltimitNetwork getInstance() {
+        if (instance == null) {
+            instance = new AltimitNetwork();
+        }
+        return instance;
+    }
+
     /**
      * Starts the connection to hazelcast, compiles AltimitCmd.
      */
-    public void StartServer() throws Exception{
+    public void StartServer(){
         //lets just do something fancy to show its ready
         System.out.println("==================================== \n" +
                 "========    ALTIMIT SERVER  ======== \n" +
                 "==================================== \n");
 
+        altimitConnector = AltimitConnector.getInstance();
         StartAltimitServer();
 
         if(propertiesManager.useRestService()) {
@@ -53,15 +62,13 @@ public class AltimitNetwork extends Thread {
         for(UUID clientUUID : localClientMap.keySet()){
             DisconnectUser(clientUUID, true);
         }
-
-        AltimitConnector.StopServer();
     }
 
-    public void StartAltimitServer(){
+    synchronized void StartAltimitServer(){
         //Let the admin know that we can accept users now
         System.out.println("Ready for clients...");
 
-        AltimitConnector.Start(propertiesManager.getServerPort());
+        altimitConnector.Start(propertiesManager.getServerPort());
         localClientMap = new HashMap<>();
         super.run();
     }

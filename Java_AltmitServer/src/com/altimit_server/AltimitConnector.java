@@ -9,13 +9,22 @@ import java.util.UUID;
 
 public class AltimitConnector extends Thread{
     private static ServerSocket socket;
-    private static int port;
+    private int port;
+    private static AltimitConnector instance;
+
+    public static synchronized AltimitConnector getInstance(){
+
+        if (instance== null) {
+            instance = new AltimitConnector();
+        }
+        return instance;
+    }
 
     static boolean isRunning(){
         return socket.isClosed();
     }
 
-    static void StopServer(){
+    void StopServer(){
         try {
             socket.close();
             System.out.println("Altimit Server has been stopped...");
@@ -25,10 +34,10 @@ public class AltimitConnector extends Thread{
     }
 
 
-    static void Start(int ServerPort) {
+    synchronized void Start(int ServerPort) {
         port = ServerPort;
         try {
-            System.out.printf("Starting server on port {}", port);
+            System.out.println("Starting server on port " + port);
             socket = new ServerSocket(port);
         } catch (IOException e) {
             return;
@@ -38,7 +47,7 @@ public class AltimitConnector extends Thread{
 
     @Override
     public void run() {
-        while(isRunning()){
+        while(true){
             try {
                 Thread.sleep(100);
                 listenForConnections();
@@ -51,7 +60,7 @@ public class AltimitConnector extends Thread{
     private void listenForConnections(){
         try {
             Socket newConnection = socket.accept();
-            System.out.printf("Accepting connection from {}", newConnection.getInetAddress().getHostAddress());
+            System.out.println("Accepting connection from " + newConnection.getInetAddress().getHostAddress());
             AddClientToAltimitNetwork(newConnection);
         } catch (IOException e) {
             e.printStackTrace();

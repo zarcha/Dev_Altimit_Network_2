@@ -7,44 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="545100e2-6d83-486b-87cd-70a0666b9f34" name="Default" comment="removed hazelcast file since its not needed">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Altimit Client/Temp/__Backupscenes/0.backup" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/AltimitCmd.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/AltimitInvoker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/AltimitMethod.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/main$Handler.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/altimit_server/AlimitHeartBeat.java" afterPath="$PROJECT_DIR$/src/com/altimit_server/AltimitHeartBeat.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/ScriptAssemblies/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/../Altimit Client/Library/ScriptAssemblies/Assembly-CSharp.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterPath="$PROJECT_DIR$/../Altimit Client/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/assetDatabase3" afterPath="$PROJECT_DIR$/../Altimit Client/Library/assetDatabase3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/expandedItems" afterPath="$PROJECT_DIR$/../Altimit Client/Library/expandedItems" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000004000000000000000" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/00/00000000000000004000000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/4c/4c886b489d67a40449882445aee46a68" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/4c/4c886b489d67a40449882445aee46a68" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/58/5853b98427f1c30499faffab5518df5b" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/58/5853b98427f1c30499faffab5518df5b" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/5d/5d746f846d7464366a2dd7a9b2c6f896" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/5d/5d746f846d7464366a2dd7a9b2c6f896" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b6/b6d885eeb2b277040a1eac29e1009dcb" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/b6/b6d885eeb2b277040a1eac29e1009dcb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/metadata/dd/dd7f896274c34174795de4287518c2f9" afterPath="$PROJECT_DIR$/../Altimit Client/Library/metadata/dd/dd7f896274c34174795de4287518c2f9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/AltimitHeartBeat$1.class" afterPath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/AltimitHeartBeat$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/AltimitHeartBeat.class" afterPath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/AltimitHeartBeat.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/AltimitUnity.class" afterPath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/AltimitUnity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/ControlPanel/AltimitRest$1.class" afterPath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/ControlPanel/AltimitRest$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/ControlPanel/AltimitRest.class" afterPath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/ControlPanel/AltimitRest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/PostMan.class" afterPath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/PostMan.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/Rooms.class" afterPath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/Rooms.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/Users.class" afterPath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/Users.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/main.class" afterPath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/types/ClientInfo.class" afterPath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/types/ClientInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/types/UnityObject.class" afterPath="$PROJECT_DIR$/out/production/Java_AltmitServer/com/altimit_server/types/UnityObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Altimit Client.sln" afterPath="$PROJECT_DIR$/../Altimit Client/Altimit Client.sln" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/CurrentLayout.dwlt" afterPath="$PROJECT_DIR$/../Altimit Client/Library/CurrentLayout.dwlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/EditorInstance.json" afterPath="$PROJECT_DIR$/../Altimit Client/Library/EditorInstance.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Altimit Client/Library/shadercompiler-UnityShaderCompiler0.log" afterPath="$PROJECT_DIR$/../Altimit Client/Library/shadercompiler-UnityShaderCompiler0.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/altimit_server/AltimitConnector.java" afterPath="$PROJECT_DIR$/src/com/altimit_server/AltimitConnector.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/altimit_server/AltimitNetwork.java" afterPath="$PROJECT_DIR$/src/com/altimit_server/AltimitNetwork.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/altimit_server/AltimitUnity.java" afterPath="$PROJECT_DIR$/src/com/altimit_server/AltimitUnity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/altimit_server/ControlPanel/AltimitRest.java" afterPath="$PROJECT_DIR$/src/com/altimit_server/ControlPanel/AltimitRest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/altimit_server/Packets/PacketManager.java" afterPath="$PROJECT_DIR$/src/com/altimit_server/Packets/PacketManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/altimit_server/main.java" afterPath="$PROJECT_DIR$/src/com/altimit_server/main.java" />
     </list>
     <ignored path="Java_AltmitServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,44 +39,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IPacket.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/altimit_server/Packets/IPacket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IPacketHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/altimit_server/Packets/IPacketHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PacketManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/altimit_server/Packets/PacketManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="40" column="44" lean-forward="true" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AltimitUnity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/altimit_server/AltimitUnity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-              <folding>
-                <marker date="1502897261000" expanded="true" signature="2279:2318" ph="{...}" />
-              </folding>
+            <state relative-caret-position="249">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,21 +52,33 @@
       <file leaf-file-name="AltimitNetwork.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/altimit_server/AltimitNetwork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="74" column="35" lean-forward="true" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+            <state relative-caret-position="462">
+              <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
               <folding>
-                <element signature="e#5251#5252#0" expanded="true" />
-                <element signature="e#5302#5303#0" expanded="true" />
+                <element signature="e#5493#5494#0" expanded="true" />
+                <element signature="e#5544#5545#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PropertiesManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/altimit_server/util/PropertiesManager.java">
+      <file leaf-file-name="AltimitRest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/altimit_server/ControlPanel/AltimitRest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="935">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AltimitHttpServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/altimit_server/ControlPanel/AltimitHttpServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="592">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,43 +89,71 @@
       <file leaf-file-name="AltimitConnector.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/altimit_server/AltimitConnector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="799">
+              <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AltimitRest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/altimit_server/ControlPanel/AltimitRest.java">
+      <file leaf-file-name="PostMan.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/altimit_server/PostMan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonTransformer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/altimit_server/util/JsonTransformer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="680">
+              <caret line="100" column="42" lean-forward="false" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AltimitHeartBeat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/altimit_server/AltimitHeartBeat.java">
+      <file leaf-file-name="AltimitConverter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/altimit_server/util/AltimitConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="289">
+              <caret line="128" column="41" lean-forward="false" selection-start-line="128" selection-start-column="41" selection-end-line="128" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BodyParse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/altimit_server/util/BodyParse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/altimit_server/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Users.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/altimit_server/Users.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="66" column="11" lean-forward="false" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
               <folding>
-                <element signature="e#436#995#0" expanded="true" />
-                <element signature="e#994#995#0" expanded="true" />
+                <element signature="e#2339#2340#0" expanded="true" />
+                <marker date="1502920598318" expanded="true" signature="1731:1912" ph="/**...*/" />
+                <marker date="1502920598318" expanded="true" signature="2118:2285" ph="/**...*/" />
+                <marker date="1502920598318" expanded="true" signature="2389:2395" ph=" }" />
+                <marker date="1502920598318" expanded="true" signature="2401:2575" ph="/**...*/" />
+                <marker date="1502920598318" expanded="false" signature="2672:2678" ph=" }" />
+                <marker date="1502920598318" expanded="true" signature="2684:2841" ph="/**...*/" />
+                <marker date="1502920598318" expanded="false" signature="2930:2936" ph=" }" />
+                <marker date="1502920598318" expanded="true" signature="2942:3077" ph="/**...*/" />
+                <marker date="1502920598318" expanded="true" signature="3127:3163" ph="{...}" />
+                <marker date="1502920598318" expanded="true" signature="3169:3277" ph="/**...*/" />
+                <marker date="1502920598318" expanded="false" signature="3346:3352" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -263,13 +241,13 @@
         <option value="$PROJECT_DIR$/out/production/Java_AltmitServer/config.properties" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/util/PropertiesManager.java" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/ControlPanel/AltimitHttpServer.java" />
-        <option value="$PROJECT_DIR$/src/com/altimit_server/main.java" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/MapStore/MapManager.java" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/Users.java" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/Packets/PacketManager.java" />
-        <option value="$PROJECT_DIR$/src/com/altimit_server/AltimitUnity.java" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/AlimitHeartBeat.java" />
+        <option value="$PROJECT_DIR$/src/com/altimit_server/AltimitUnity.java" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/ControlPanel/AltimitRest.java" />
+        <option value="$PROJECT_DIR$/src/com/altimit_server/main.java" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/AltimitNetwork.java" />
         <option value="$PROJECT_DIR$/src/com/altimit_server/AltimitConnector.java" />
       </list>
@@ -285,9 +263,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="2495" />
-    <option name="height" value="1058" />
+    <option name="x" value="-1088" />
+    <option name="y" value="-611" />
+    <option name="width" value="1096" />
+    <option name="height" value="1896" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -321,10 +300,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java_AltmitServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Java_AltmitServer" />
@@ -346,10 +336,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -411,71 +397,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Packets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_AltmitServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_AltmitServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="altimit_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="ControlPanel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_AltmitServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_AltmitServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="production" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_AltmitServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_AltmitServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java_AltmitServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -756,7 +683,6 @@
       <envs />
       <method>
         <option name="MakeProject" enabled="false" />
-        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list size="2">
@@ -894,42 +820,64 @@
     <option name="totallyTimeSpent" value="302588000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="2495" height="1058" extended-state="6" />
+    <frame x="-1088" y="-611" width="1096" height="1896" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31282586" sideWeight="0.42815676" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3118393" sideWeight="0.42815676" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31712472" sideWeight="0.57184327" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17391305" sideWeight="0.49201742" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34355178" sideWeight="0.49201742" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10460922" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52137643" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23333333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23879041" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12597984" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31712472" sideWeight="0.57184327" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23879041" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31282586" sideWeight="0.42815676" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17391305" sideWeight="0.49201742" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10460922" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52137643" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -958,14 +906,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/altimit_server/main.java</url>
-          <line>10</line>
-          <properties />
-          <option name="timeStamp" value="174" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -976,7 +916,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="176" />
+      <option name="time" value="183" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1033,37 +973,9 @@
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_92/src.zip!/java/lang/Class.java" />
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_92/src.zip!/java/net/URLClassLoader.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/sparkjava/spark-core/2.5/spark-core-2.5.jar!/spark/Service.class" />
-    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/util/BodyParse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/AltimitCmd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/AltimitInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/AltimitMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
-          <caret line="110" column="34" lean-forward="false" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/AltimitCmd.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/AltimitInvoker.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/AltimitMethod.java" />
     <entry file="file://$PROJECT_DIR$/src/com/altimit_server/types/UnityObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
@@ -1085,10 +997,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/altimit_server/Rooms.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+        <state relative-caret-position="789">
+          <caret line="183" column="108" lean-forward="false" selection-start-line="183" selection-start-column="108" selection-end-line="183" selection-end-column="108" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1502920598315" expanded="true" signature="7289:7305" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1100,21 +1012,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/util/AltimitConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/altimit_server/PostMan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="98" column="60" lean-forward="false" selection-start-line="98" selection-start-column="60" selection-end-line="98" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="680">
+          <caret line="100" column="42" lean-forward="false" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1122,17 +1024,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/ControlPanel/AltimitHttpServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1140,19 +1031,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <marker date="1502884759000" expanded="true" signature="402:409" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <marker date="1502884759000" expanded="true" signature="344:350" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1166,20 +1045,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/MapStore/MapManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/MapStore/MapManager.java" />
     <entry file="file://$PROJECT_DIR$/src/com/altimit_server/Users.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        <state relative-caret-position="317">
+          <caret line="66" column="11" lean-forward="false" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2339#2340#0" expanded="true" />
+            <marker date="1502920598318" expanded="true" signature="1731:1912" ph="/**...*/" />
+            <marker date="1502920598318" expanded="true" signature="2118:2285" ph="/**...*/" />
+            <marker date="1502920598318" expanded="true" signature="2389:2395" ph=" }" />
+            <marker date="1502920598318" expanded="true" signature="2401:2575" ph="/**...*/" />
+            <marker date="1502920598318" expanded="false" signature="2672:2678" ph=" }" />
+            <marker date="1502920598318" expanded="true" signature="2684:2841" ph="/**...*/" />
+            <marker date="1502920598318" expanded="false" signature="2930:2936" ph=" }" />
+            <marker date="1502920598318" expanded="true" signature="2942:3077" ph="/**...*/" />
+            <marker date="1502920598318" expanded="true" signature="3127:3163" ph="{...}" />
+            <marker date="1502920598318" expanded="true" signature="3169:3277" ph="/**...*/" />
+            <marker date="1502920598318" expanded="false" signature="3346:3352" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -1196,7 +1079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1204,17 +1086,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/AltimitUnity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-          <folding>
-            <marker date="1502897261000" expanded="true" signature="2279:2318" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1236,27 +1107,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/ControlPanel/AltimitRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/AltimitNetwork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="74" column="35" lean-forward="true" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
-          <folding>
-            <element signature="e#5251#5252#0" expanded="true" />
-            <element signature="e#5302#5303#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/altimit_server/AltimitHeartBeat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1268,10 +1118,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/util/AltimitConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="128" column="41" lean-forward="false" selection-start-line="128" selection-start-column="41" selection-end-line="128" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/util/BodyParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/AltimitUnity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/ControlPanel/AltimitRest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/ControlPanel/AltimitHttpServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/altimit_server/AltimitNetwork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+          <folding>
+            <element signature="e#5493#5494#0" expanded="true" />
+            <element signature="e#5544#5545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/altimit_server/AltimitConnector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="44" />
+        <state relative-caret-position="799">
+          <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
           <folding />
         </state>
       </provider>
