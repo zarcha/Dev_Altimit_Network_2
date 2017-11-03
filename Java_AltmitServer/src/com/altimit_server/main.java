@@ -118,6 +118,11 @@ public class main {
          * This is automatically ran when the thread is started. It will handle the running, parsing, conversion and calling of messages sent by clients.
          */
         public void run() {
+
+            if(clientUUid == null) {
+                MakeClientUUID();
+            }
+
             System.out.println("Client has connected from " + socket.getLocalSocketAddress().toString());
 
             try {
@@ -170,13 +175,10 @@ public class main {
 
                                         tSentMessage.add(clientUUid);
                                         //Make sure this client has an identifier and if it doesnt then see if it is trying to set it. If not then do nothing!
-                                        if (clientUUid != null) {
-                                            AltimitInvoker tAltimitTask = new AltimitInvoker(tSentMessage);
-                                            new Thread(tAltimitTask).start();
 
-                                        } else {
-                                            MakeClientUUID();
-                                        }
+                                        AltimitInvoker tAltimitTask = new AltimitInvoker(tSentMessage);
+                                        new Thread(tAltimitTask).start();
+
 
                                         //if there is more of a message then delete the stuff we just used and if not then reset data
                                         if (messageOffset != fullMessage.length) {
@@ -196,7 +198,7 @@ public class main {
                 System.out.println(e);
             } finally {
                 //If they crashed the party then kick them out
-                DisconnectUser(socket, out, in, Thread.currentThread());
+                DisconnectUser(socket, Thread.currentThread());
                 System.out.println("run");
             }
         }
@@ -252,11 +254,9 @@ public class main {
     /**
      * Handles the disconnection of a client that has no data set and does the clean-up needed.
      * @param socket The socket to disconnect
-     * @param outputStream The out
-     * @param inputStream
      * @param clientThread
      */
-    static void DisconnectUser(Socket socket, DataOutputStream outputStream, DataInputStream inputStream, Thread clientThread){
+    static void DisconnectUser(Socket socket, Thread clientThread){
         try{
             socket.close();
             clientThread.interrupt();
